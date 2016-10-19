@@ -1,0 +1,11 @@
+.\obj\retarget.o: ..\..\Common\RealView\Retarget.c
+.\obj\retarget.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\retarget.o: C:\Keil\ARM\ARMCC\bin\..\include\rt_misc.h
+.\obj\retarget.o: ..\..\Common\include.h
+.\obj\retarget.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\retarget.o: ..\..\Common\ADUCRF101.h
+.\obj\retarget.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\retarget.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\retarget.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\retarget.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\retarget.o: ..\..\Common\system_ADUCRF101.h

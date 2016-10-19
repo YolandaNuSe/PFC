@@ -1,0 +1,15 @@
+.\obj\radioeng.o: radioeng.c
+.\obj\radioeng.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\radioeng.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\obj\radioeng.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\radioeng.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\obj\radioeng.o: C:\Keil\ARM\ARMCC\bin\..\include\limits.h
+.\obj\radioeng.o: defs.h
+.\obj\radioeng.o: ADUCRF101.h
+.\obj\radioeng.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\radioeng.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\radioeng.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\radioeng.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\radioeng.o: C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h
+.\obj\radioeng.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\radioeng.o: radioeng.h

@@ -1,0 +1,11 @@
+.\obj\microphone.o: microphone.c
+.\obj\microphone.o: microphone.h
+.\obj\microphone.o: batery.h
+.\obj\microphone.o: ADUCRF101.h
+.\obj\microphone.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\microphone.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\microphone.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\microphone.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\microphone.o: C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h
+.\obj\microphone.o: leds.h
+.\obj\microphone.o: radioeng.h

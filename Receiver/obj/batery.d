@@ -1,0 +1,9 @@
+.\obj\batery.o: batery.c
+.\obj\batery.o: ADUCRF101.h
+.\obj\batery.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\batery.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\batery.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\batery.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\batery.o: C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h
+.\obj\batery.o: leds.h
+.\obj\batery.o: batery.h

@@ -1,0 +1,14 @@
+.\obj\pwm.o: PWM.c
+.\obj\pwm.o: C:\Keil\ARM\Inc\ADI\ADUCRF101.h
+.\obj\pwm.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\pwm.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\pwm.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\pwm.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\pwm.o: C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h
+.\obj\pwm.o: WdtLib.h
+.\obj\pwm.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\pwm.o: leds.h
+.\obj\pwm.o: batery.h
+.\obj\pwm.o: radioeng.h
+.\obj\pwm.o: ConfigPWM0.h
+.\obj\pwm.o: PwmLib.h

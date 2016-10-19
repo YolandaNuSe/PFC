@@ -1,0 +1,87 @@
+Dependencies for Project 'ADC', Target 'ADCchannels': (DO NOT MODIFY !)
+F (..\..\Common\RealView\startup_ADuCRF101.s)(0x50338DD9)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI --list ".\Lst\startup_ADuCRF101.lst" --xref -o ".\obj\startup_ADuCRF101.o" --depend ".\obj\startup_ADuCRF101.d")
+F (.\main.c)(0x50C077AD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\obj\main.o" --omf_browse ".\obj\main.crf" --depend ".\obj\main.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB126E4)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB126DE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB126E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB126E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\limits.h)(0x4EB126DE)
+I (defs.h)(0x50338DD5)
+I (ADUCRF101.h)(0x50ACE879)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50066FD2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB126E4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059A2DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDADAAC)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h)(0x4F5F3BF2)
+I (leds.h)(0x50A262CC)
+I (batery.h)(0x50A2630F)
+I (radioeng.h)(0x50B771E9)
+I (output.h)(0x50B8CBF5)
+I (config.h)(0x50BC98E8)
+F (.\batery.c)(0x50B8B56D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\obj\batery.o" --omf_browse ".\obj\batery.crf" --depend ".\obj\batery.d")
+I (ADUCRF101.h)(0x50ACE879)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50066FD2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB126E4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059A2DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDADAAC)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h)(0x4F5F3BF2)
+I (leds.h)(0x50A262CC)
+I (batery.h)(0x50A2630F)
+F (.\leds.c)(0x50C077C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\obj\leds.o" --omf_browse ".\obj\leds.crf" --depend ".\obj\leds.d")
+I (ADUCRF101.h)(0x50ACE879)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50066FD2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB126E4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059A2DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDADAAC)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h)(0x4F5F3BF2)
+I (leds.h)(0x50A262CC)
+I (batery.h)(0x50A2630F)
+F (.\radioeng.c)(0x50C077C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\obj\radioeng.o" --omf_browse ".\obj\radioeng.crf" --depend ".\obj\radioeng.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB126E4)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB126DE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB126E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB126E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\limits.h)(0x4EB126DE)
+I (defs.h)(0x50338DD5)
+I (ADUCRF101.h)(0x50ACE879)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50066FD2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB126E4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059A2DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDADAAC)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h)(0x4F5F3BF2)
+I (radioeng.h)(0x50B771E9)
+F (.\output.c)(0x50C077AD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\obj\output.o" --omf_browse ".\obj\output.crf" --depend ".\obj\output.d")
+I (ADUCRF101.h)(0x50ACE879)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50066FD2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB126E4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059A2DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDADAAC)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h)(0x4F5F3BF2)
+I (leds.h)(0x50A262CC)
+I (batery.h)(0x50A2630F)
+I (output.h)(0x50B8CBF5)
+I (C:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x4EB126E8)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB126E4)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stddef.h)(0x4EB126DE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB126E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB126E6)
+I (C:\Keil\ARM\ARMCC\bin\..\include\limits.h)(0x4EB126DE)
+I (defs.h)(0x50338DD5)
+I (radioeng.h)(0x50B771E9)
+I (OutDAC.h)(0x50BF6A36)
+F (.\config.c)(0x50BE0BCE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\obj\config.o" --omf_browse ".\obj\config.crf" --depend ".\obj\config.d")
+I (ADUCRF101.h)(0x50ACE879)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50066FD2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB126E4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059A2DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDADAAC)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h)(0x4F5F3BF2)
+I (config.h)(0x50BC98E8)
+F (.\OutDAC.c)(0x50BE19EA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\obj\outdac.o" --omf_browse ".\obj\outdac.crf" --depend ".\obj\outdac.d")
+I (OutDAC.h)(0x50BF6A36)
+I (ADUCRF101.h)(0x50ACE879)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x50066FD2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB126E4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059A2DC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDADAAC)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h)(0x4F5F3BF2)

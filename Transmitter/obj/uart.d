@@ -1,0 +1,12 @@
+.\obj\uart.o: ..\..\Common\uart.c
+.\obj\uart.o: ..\..\Common\include.h
+.\obj\uart.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\uart.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\uart.o: ..\..\Common\ADUCRF101.h
+.\obj\uart.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\uart.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\uart.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\uart.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\uart.o: ..\..\Common\system_ADUCRF101.h
+.\obj\uart.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\obj\uart.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h

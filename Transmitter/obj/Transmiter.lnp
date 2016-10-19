@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\obj\startup_aducrf101.o" ".\obj\switches.o" ".\obj\main.o" ".\obj\batery.o" ".\obj\leds.o" ".\obj\wdtlib.o" ".\obj\microphone.o" ".\obj\radioeng.o" 
+--library_type=microlib --strict --scatter ".\obj\Transmiter.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Transmiter.map" -o .\obj\Transmiter.axf

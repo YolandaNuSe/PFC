@@ -1,0 +1,448 @@
+ARM Linker, 5.02 [Build 28] [MDK-ARM Lite]
+
+==============================================================================
+
+Section Cross References
+
+    startup_aducrf101.o(RESET) refers to startup_aducrf101.o(STACK) for __initial_sp
+    startup_aducrf101.o(RESET) refers to startup_aducrf101.o(.text) for Reset_Handler
+    startup_aducrf101.o(RESET) refers to radioeng.o(.text) for Ext_Int8_Handler
+    startup_aducrf101.o(RESET) refers to output.o(.text) for GP_Tmr0_Int_Handler
+    startup_aducrf101.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    main.o(.text) refers to radioeng.o(.text) for InitRadioReceive
+    main.o(.text) refers to config.o(.text) for ConfigPins
+    main.o(.text) refers to batery.o(.text) for batery
+    main.o(.text) refers to output.o(.text) for Config_Timer0
+    batery.o(.text) refers to leds.o(.text) for leds
+    batery.o(.text) refers to batery.o(.data) for ADC_value
+    radioeng.o(.text) refers to memcpya.o(.text) for __aeabi_memcpy
+    radioeng.o(.text) refers to radioeng.o(.bss) for RadioConfiguration
+    radioeng.o(.text) refers to radioeng.o(.data) for bTestModeEnabled
+    radioeng.o(.text) refers to radioeng.o(.constdata) for DR_1_0kbps_Dev10_0kpbs_Configuration
+    radioeng.o(.text) refers to dfltui.o(.text) for __aeabi_ui2d
+    radioeng.o(.text) refers to dmul.o(.text) for __aeabi_dmul
+    radioeng.o(.text) refers to dfixui.o(.text) for __aeabi_d2uiz
+    output.o(.text) refers to radioeng.o(.text) for RadioRxPacketAvailable
+    output.o(.text) refers to leds.o(.text) for leds
+    output.o(.text) refers to outdac.o(.text) for OutDAC
+    output.o(.text) refers to output.o(.data) for address
+    output.o(.text) refers to output.o(.bss) for arrayUsed
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8.o(.ARM.Collect$$$$00000009) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    dmul.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dmul.o(.text) refers to depilogue.o(.text) for _double_epilogue
+    dfltui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dfltui.o(.text) refers to depilogue.o(.text) for _double_epilogue
+    dfixui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dfixui.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_aducrf101.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_aducrf101.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry8.o(.ARM.Collect$$$$00000009) refers to main.o(.text) for main
+    depilogue.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    depilogue.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing startup_aducrf101.o(HEAP), (512 bytes).
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing batery.o(.rev16_text), (4 bytes).
+    Removing batery.o(.revsh_text), (4 bytes).
+    Removing leds.o(.rev16_text), (4 bytes).
+    Removing leds.o(.revsh_text), (4 bytes).
+    Removing radioeng.o(.rev16_text), (4 bytes).
+    Removing radioeng.o(.revsh_text), (4 bytes).
+    Removing output.o(.rev16_text), (4 bytes).
+    Removing output.o(.revsh_text), (4 bytes).
+    Removing config.o(.rev16_text), (4 bytes).
+    Removing config.o(.revsh_text), (4 bytes).
+    Removing outdac.o(.rev16_text), (4 bytes).
+    Removing outdac.o(.revsh_text), (4 bytes).
+
+15 unused section(s) (total 568 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      240  startup_aducrf101.o(RESET)
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  useno.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  depilogue.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixui.o ABSOLUTE
+    ../fplib/microlib/fpflt.c                0x00000000   Number         0  dfltui.o ABSOLUTE
+    ../fplib/microlib/fpmul.c                0x00000000   Number         0  dmul.o ABSOLUTE
+    ..\..\Common\RealView\startup_ADuCRF101.s 0x00000000   Number         0  startup_aducrf101.o ABSOLUTE
+    OutDAC.c                                 0x00000000   Number         0  outdac.o ABSOLUTE
+    OutDAC.c                                 0x00000000   Number         0  outdac.o ABSOLUTE
+    batery.c                                 0x00000000   Number         0  batery.o ABSOLUTE
+    batery.c                                 0x00000000   Number         0  batery.o ABSOLUTE
+    config.c                                 0x00000000   Number         0  config.o ABSOLUTE
+    config.c                                 0x00000000   Number         0  config.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    leds.c                                   0x00000000   Number         0  leds.o ABSOLUTE
+    leds.c                                   0x00000000   Number         0  leds.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    output.c                                 0x00000000   Number         0  output.o ABSOLUTE
+    output.c                                 0x00000000   Number         0  output.o ABSOLUTE
+    radioeng.c                               0x00000000   Number         0  radioeng.o ABSOLUTE
+    radioeng.c                               0x00000000   Number         0  radioeng.o ABSOLUTE
+    .ARM.Collect$$$$00000000                 0x000000f0   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x000000f0   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x000000f4   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x000000f8   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$00000009                 0x000000f8   Section        8  entry8.o(.ARM.Collect$$$$00000009)
+    .ARM.Collect$$$$00002712                 0x00000100   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x00000100   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x00000104   Section       28  startup_aducrf101.o(.text)
+    .text                                    0x00000120   Section        0  main.o(.text)
+    .text                                    0x00000154   Section        0  batery.o(.text)
+    .text                                    0x000001b0   Section        0  leds.o(.text)
+    .text                                    0x00000204   Section        0  radioeng.o(.text)
+    RadioSPIXferByte                         0x00000211   Thumb Code    44  radioeng.o(.text)
+    RadioReadState                           0x0000023d   Thumb Code    74  radioeng.o(.text)
+    RadioWaitOnState                         0x00000287   Thumb Code    30  radioeng.o(.text)
+    RadioSendCommandBytes                    0x000002a5   Thumb Code    66  radioeng.o(.text)
+    RadioSendCommandNoWait                   0x000002e7   Thumb Code    16  radioeng.o(.text)
+    RadioToOnMode                            0x000002f7   Thumb Code   128  radioeng.o(.text)
+    RadioWaitOnCmdLdr                        0x00000377   Thumb Code    80  radioeng.o(.text)
+    RadioSendCommandWait                     0x000003c7   Thumb Code    32  radioeng.o(.text)
+    RadioMMapWrite                           0x000003e7   Thumb Code   100  radioeng.o(.text)
+    RadioToOffMode                           0x0000044b   Thumb Code   128  radioeng.o(.text)
+    RadioConfigure                           0x000004cb   Thumb Code    48  radioeng.o(.text)
+    RadioCommitRadioConfig                   0x000004fb   Thumb Code   100  radioeng.o(.text)
+    SetRadioConfiguration                    0x0000055f   Thumb Code    92  radioeng.o(.text)
+    RadioSyncComms                           0x000005bb   Thumb Code    26  radioeng.o(.text)
+    RadioWaitForPowerUp                      0x000005d5   Thumb Code    42  radioeng.o(.text)
+    RadioMMapRead                            0x00000a2b   Thumb Code   180  radioeng.o(.text)
+    NVIC_EnableIRQ                           0x00000d0f   Thumb Code    24  radioeng.o(.text)
+    NVIC_DisableIRQ                          0x00000d27   Thumb Code    18  radioeng.o(.text)
+    .text                                    0x00000d58   Section        0  output.o(.text)
+    .text                                    0x00000f34   Section        0  config.o(.text)
+    .text                                    0x00001000   Section        0  outdac.o(.text)
+    .text                                    0x0000112c   Section        0  memcpya.o(.text)
+    .text                                    0x00001150   Section        0  dmul.o(.text)
+    .text                                    0x00001234   Section        0  dfltui.o(.text)
+    .text                                    0x0000124e   Section        0  dfixui.o(.text)
+    .text                                    0x00001280   Section        0  llushr.o(.text)
+    .text                                    0x000012a0   Section        0  iusefp.o(.text)
+    .text                                    0x000012a0   Section        0  depilogue.o(.text)
+    .text                                    0x00001360   Section       36  init.o(.text)
+    .text                                    0x00001384   Section        0  llshl.o(.text)
+    i.__scatterload_copy                     0x000013a2   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x000013b0   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x000013b2   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .constdata                               0x000013c0   Section      192  radioeng.o(.constdata)
+    .data                                    0x20000000   Section        2  batery.o(.data)
+    .data                                    0x20000004   Section       10  radioeng.o(.data)
+    bRadioConfigurationChanged               0x20000004   Data           1  radioeng.o(.data)
+    bTestModeEnabled                         0x20000005   Data           1  radioeng.o(.data)
+    DataRate                                 0x20000008   Data           4  radioeng.o(.data)
+    bPacketTx                                0x2000000c   Data           1  radioeng.o(.data)
+    bPacketRx                                0x2000000d   Data           1  radioeng.o(.data)
+    .data                                    0x20000010   Section       24  output.o(.data)
+    .bss                                     0x20000028   Section       64  radioeng.o(.bss)
+    RadioConfiguration                       0x20000028   Data          64  radioeng.o(.bss)
+    .bss                                     0x20000068   Section      234  output.o(.bss)
+    STACK                                    0x20000158   Section     1024  startup_aducrf101.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$P$D$K$B$S$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_aducrf101.o(RESET)
+    __use_no_errno                           0x00000000   Number         0  useno.o ABSOLUTE
+    __use_no_exception_handling              0x00000000   Number         0  useno.o ABSOLUTE
+    __use_no_fp                              0x00000000   Number         0  useno.o ABSOLUTE
+    __use_no_heap                            0x00000000   Number         0  useno.o ABSOLUTE
+    __use_no_heap_region                     0x00000000   Number         0  useno.o ABSOLUTE
+    __use_no_semihosting                     0x00000000   Number         0  useno.o ABSOLUTE
+    __use_no_semihosting_swi                 0x00000000   Number         0  useno.o ABSOLUTE
+    __use_no_signal_handling                 0x00000000   Number         0  useno.o ABSOLUTE
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    __Vectors_End                            0x000000f0   Data           0  startup_aducrf101.o(RESET)
+    __Vectors_Size                           0x000000f0   Number         0  startup_aducrf101.o ABSOLUTE
+    __main                                   0x000000f1   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x000000f1   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x000000f5   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x000000f9   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x000000f9   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_init                               0x000000f9   Thumb Code     0  entry8.o(.ARM.Collect$$$$00000009)
+    Reset_Handler                            0x00000105   Thumb Code     4  startup_aducrf101.o(.text)
+    NMI_Handler                              0x00000109   Thumb Code     2  startup_aducrf101.o(.text)
+    HardFault_Handler                        0x0000010b   Thumb Code     2  startup_aducrf101.o(.text)
+    MemManage_Handler                        0x0000010d   Thumb Code     2  startup_aducrf101.o(.text)
+    BusFault_Handler                         0x0000010f   Thumb Code     2  startup_aducrf101.o(.text)
+    UsageFault_Handler                       0x00000111   Thumb Code     2  startup_aducrf101.o(.text)
+    SVC_Handler                              0x00000113   Thumb Code     2  startup_aducrf101.o(.text)
+    DebugMon_Handler                         0x00000115   Thumb Code     2  startup_aducrf101.o(.text)
+    PendSV_Handler                           0x00000117   Thumb Code     2  startup_aducrf101.o(.text)
+    SysTick_Handler                          0x00000119   Thumb Code     2  startup_aducrf101.o(.text)
+    ADC0_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_ADC_Int_Handler                      0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_Err_Int_Handler                      0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_I2C0_MRX_Int_Handler                 0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_I2C0_MTX_Int_Handler                 0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_I2C0_SRX_Int_Handler                 0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_I2C0_STX_Int_Handler                 0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_SPI0_RX_Int_Handler                  0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_SPI0_TX_Int_Handler                  0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_SPI1_RX_Int_Handler                  0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_SPI1_TX_Int_Handler                  0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_UART_RX_Int_Handler                  0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    DMA_UART_TX_Int_Handler                  0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Ext_Int0_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Ext_Int1_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Ext_Int2_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Ext_Int3_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Ext_Int4_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Ext_Int5_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Ext_Int6_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Ext_Int7_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    Flsh_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    GP_Tmr1_Int_Handler                      0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    I2C0_Master_Int_Handler                  0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    I2C0_Slave_Int_Handler                   0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    PWM0_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    PWM1_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    PWM2_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    PWM3_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    PWMTrip_Int_Handler                      0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    SPI0_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    SPI1_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    UART_Int_Handler                         0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    UnUsed_Handler                           0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    WDog_Tmr_Int_Handler                     0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    WakeUp_Int_Handler                       0x0000011b   Thumb Code     0  startup_aducrf101.o(.text)
+    main                                     0x00000121   Thumb Code    48  main.o(.text)
+    batery                                   0x00000155   Thumb Code    84  batery.o(.text)
+    leds                                     0x000001b1   Thumb Code    68  leds.o(.text)
+    RadioGetAPIVersion                       0x00000205   Thumb Code    12  radioeng.o(.text)
+    RadioPowerOff                            0x000005ff   Thumb Code    30  radioeng.o(.text)
+    RadioInit                                0x0000061d   Thumb Code   268  radioeng.o(.text)
+    RadioTerminateRadioOp                    0x00000729   Thumb Code    14  radioeng.o(.text)
+    RadioSetFrequency                        0x00000737   Thumb Code    84  radioeng.o(.text)
+    RadioSetModulationType                   0x0000078b   Thumb Code    66  radioeng.o(.text)
+    RadioPayldManchesterEncode               0x000007cd   Thumb Code    58  radioeng.o(.text)
+    RadioPayldDataWhitening                  0x00000807   Thumb Code    58  radioeng.o(.text)
+    RadioTxPacketFixedLen                    0x00000841   Thumb Code    94  radioeng.o(.text)
+    RadioTxPacketComplete                    0x0000089f   Thumb Code     6  radioeng.o(.text)
+    RadioTxSetPA                             0x000008a5   Thumb Code   198  radioeng.o(.text)
+    RadioTxCarrier                           0x0000096b   Thumb Code    58  radioeng.o(.text)
+    RadioTxPreamble                          0x000009a5   Thumb Code    58  radioeng.o(.text)
+    RadioRxPacketFixedLen                    0x000009df   Thumb Code    70  radioeng.o(.text)
+    RadioRxPacketAvailable                   0x00000a25   Thumb Code     6  radioeng.o(.text)
+    RadioRxPacketRead                        0x00000adf   Thumb Code   116  radioeng.o(.text)
+    RadioRxBERTestMode                       0x00000b53   Thumb Code    80  radioeng.o(.text)
+    Ext_Int8_Handler                         0x00000ba3   Thumb Code   110  radioeng.o(.text)
+    InitRadioReceive                         0x00000c11   Thumb Code    28  radioeng.o(.text)
+    RadioToReceiveMode                       0x00000c2d   Thumb Code    18  radioeng.o(.text)
+    InitRadioTransmit                        0x00000c3f   Thumb Code    40  radioeng.o(.text)
+    RadioSend                                0x00000c67   Thumb Code    20  radioeng.o(.text)
+    RadioToSleepMode                         0x00000c7b   Thumb Code   128  radioeng.o(.text)
+    RadioReadShort                           0x00000cfb   Thumb Code    20  radioeng.o(.text)
+    Config_Timer0                            0x00000d59   Thumb Code    44  output.o(.text)
+    GP_Tmr0_Int_Handler                      0x00000d85   Thumb Code   376  output.o(.text)
+    ConfigPins                               0x00000f35   Thumb Code   180  config.o(.text)
+    OutDAC                                   0x00001001   Thumb Code   282  outdac.o(.text)
+    __aeabi_memcpy                           0x0000112d   Thumb Code    36  memcpya.o(.text)
+    __aeabi_memcpy4                          0x0000112d   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memcpy8                          0x0000112d   Thumb Code     0  memcpya.o(.text)
+    __aeabi_dmul                             0x00001151   Thumb Code   228  dmul.o(.text)
+    __aeabi_ui2d                             0x00001235   Thumb Code    26  dfltui.o(.text)
+    __aeabi_d2uiz                            0x0000124f   Thumb Code    50  dfixui.o(.text)
+    __aeabi_llsr                             0x00001281   Thumb Code    32  llushr.o(.text)
+    _ll_ushift_r                             0x00001281   Thumb Code     0  llushr.o(.text)
+    __I$use$fp                               0x000012a1   Thumb Code     0  iusefp.o(.text)
+    _double_round                            0x000012a1   Thumb Code    26  depilogue.o(.text)
+    _double_epilogue                         0x000012bb   Thumb Code   164  depilogue.o(.text)
+    __scatterload                            0x00001361   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x00001361   Thumb Code     0  init.o(.text)
+    __aeabi_llsl                             0x00001385   Thumb Code    30  llshl.o(.text)
+    _ll_shift_l                              0x00001385   Thumb Code     0  llshl.o(.text)
+    __scatterload_copy                       0x000013a3   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x000013b1   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x000013b3   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    DR_38_4kbps_Dev19_2kpbs_Configuration    0x000013c0   Data          64  radioeng.o(.constdata)
+    DR_300_0kbps_Dev75_0kpbs_Configuration   0x00001400   Data          64  radioeng.o(.constdata)
+    DR_1_0kbps_Dev10_0kpbs_Configuration     0x00001440   Data          64  radioeng.o(.constdata)
+    Region$$Table$$Base                      0x00001480   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x000014a0   Number         0  anon$$obj.o(Region$$Table)
+    ADC_value                                0x20000000   Data           2  batery.o(.data)
+    i                                        0x20000010   Data           4  output.o(.data)
+    DAC_ON                                   0x20000014   Data           4  output.o(.data)
+    j                                        0x20000018   Data           4  output.o(.data)
+    channel                                  0x2000001c   Data           2  output.o(.data)
+    broadcast                                0x2000001e   Data           2  output.o(.data)
+    sample                                   0x20000020   Data           2  output.o(.data)
+    address                                  0x20000022   Data           2  output.o(.data)
+    aux                                      0x20000024   Data           4  output.o(.data)
+    arrayStored1                             0x20000068   Data          78  output.o(.bss)
+    arrayStored2                             0x200000b6   Data          78  output.o(.bss)
+    arrayUsed                                0x20000104   Data          78  output.o(.bss)
+    __initial_sp                             0x20000558   Data           0  startup_aducrf101.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000f1
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x000014c8, Max: 0x00020000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x000014a0, Max: 0x00020000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000f0   Data   RO            3    RESET               startup_aducrf101.o
+    0x000000f0   0x00000000   Code   RO          214  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x000000f0   0x00000004   Code   RO          227    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x000000f4   0x00000004   Code   RO          230    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x000000f8   0x00000000   Code   RO          232    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x000000f8   0x00000008   Code   RO          233    .ARM.Collect$$$$00000009  mc_w.l(entry8.o)
+    0x00000100   0x00000004   Code   RO          228    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x00000104   0x0000001c   Code   RO            4    .text               startup_aducrf101.o
+    0x00000120   0x00000034   Code   RO           12    .text               main.o
+    0x00000154   0x0000005c   Code   RO           73    .text               batery.o
+    0x000001b0   0x00000054   Code   RO           96    .text               leds.o
+    0x00000204   0x00000b54   Code   RO          116    .text               radioeng.o
+    0x00000d58   0x000001dc   Code   RO          145    .text               output.o
+    0x00000f34   0x000000cc   Code   RO          176    .text               config.o
+    0x00001000   0x0000012c   Code   RO          196    .text               outdac.o
+    0x0000112c   0x00000024   Code   RO          217    .text               mc_w.l(memcpya.o)
+    0x00001150   0x000000e4   Code   RO          221    .text               mf_w.l(dmul.o)
+    0x00001234   0x0000001a   Code   RO          223    .text               mf_w.l(dfltui.o)
+    0x0000124e   0x00000032   Code   RO          225    .text               mf_w.l(dfixui.o)
+    0x00001280   0x00000020   Code   RO          234    .text               mc_w.l(llushr.o)
+    0x000012a0   0x00000000   Code   RO          236    .text               mc_w.l(iusefp.o)
+    0x000012a0   0x000000be   Code   RO          237    .text               mf_w.l(depilogue.o)
+    0x0000135e   0x00000002   PAD
+    0x00001360   0x00000024   Code   RO          239    .text               mc_w.l(init.o)
+    0x00001384   0x0000001e   Code   RO          241    .text               mc_w.l(llshl.o)
+    0x000013a2   0x0000000e   Code   RO          245    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x000013b0   0x00000002   Code   RO          246    i.__scatterload_null  mc_w.l(handlers.o)
+    0x000013b2   0x0000000e   Code   RO          247    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x000013c0   0x000000c0   Data   RO          118    .constdata          radioeng.o
+    0x00001480   0x00000020   Data   RO          243    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000558, Max: 0x00004000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000002   Data   RW           74    .data               batery.o
+    0x20000002   0x00000002   PAD
+    0x20000004   0x0000000a   Data   RW          119    .data               radioeng.o
+    0x2000000e   0x00000002   PAD
+    0x20000010   0x00000018   Data   RW          147    .data               output.o
+    0x20000028   0x00000040   Zero   RW          117    .bss                radioeng.o
+    0x20000068   0x000000ea   Zero   RW          146    .bss                output.o
+    0x20000152   0x00000006   PAD
+    0x20000158   0x00000400   Zero   RW            1    STACK               startup_aducrf101.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+        92          8          0          2          0        601   batery.o
+       204         24          0          0          0        393   config.o
+        84         16          0          0          0        399   leds.o
+        52          4          0          0          0     214219   main.o
+       300         18          0          0          0        589   outdac.o
+       476         56          0         24        234       1726   output.o
+      2900        170        192         10         64      38625   radioeng.o
+        28          4        240          0       1024        784   startup_aducrf101.o
+
+    ----------------------------------------------------------------------
+      4136        300        464         40       1328     257336   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         0          0          0          4          6          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         8          4          0          0          0          0   entry8.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+         0          0          0          0          0          0   iusefp.o
+        30          0          0          0          0         68   llshl.o
+        32          0          0          0          0         68   llushr.o
+        36          0          0          0          0         68   memcpya.o
+       190          0          0          0          0        176   depilogue.o
+        50          0          0          0          0         76   dfixui.o
+        26          0          0          0          0         76   dfltui.o
+       228          0          0          0          0         92   dmul.o
+
+    ----------------------------------------------------------------------
+       680         16          0          0          0        692   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       184         16          0          0          0        272   mc_w.l
+       494          0          0          0          0        420   mf_w.l
+
+    ----------------------------------------------------------------------
+       680         16          0          0          0        692   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      4816        316        464         40       1328     257300   Grand Totals
+      4816        316        464         40       1328     257300   ELF Image Totals
+      4816        316        464         40          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 5280 (   5.16kB)
+    Total RW  Size (RW Data + ZI Data)              1368 (   1.34kB)
+    Total ROM Size (Code + RO Data + RW Data)       5320 (   5.20kB)
+
+==============================================================================
+

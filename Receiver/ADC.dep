@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1687391447</fileChecksum>
+  <configuration>
+    <name>ADCchannels</name>
+    <outputs>
+      <file>$PROJ_DIR$\src\ADCcont.c</file>
+      <file>$PROJ_DIR$\src\ADCtimerOverflow.c</file>
+      <file>$PROJ_DIR$\..\..\Common\defs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\Common\include.h</file>
+      <file>$PROJ_DIR$\..\..\Common\ADuCRF101.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\Common\system_ADUCRF101.h</file>
+      <file>$PROJ_DIR$\..\..\Common\radioeng.h</file>
+      <file>$PROJ_DIR$\..\..\Common\uart.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\AdcLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\ClkLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\DioLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\GptLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\IntLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\PwrLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\RstLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\SpiLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\UrtLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\WdtLib.h</file>
+      <file>$PROJ_DIR$\..\..\DasLib\WutLib.h</file>
+      <file>$PROJ_DIR$\Lst\Output.log</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\Common\IAR\ADUCRF101.icf</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Lst\Output.map</file>
+      <file>$PROJ_DIR$\..\..\Common\radioeng.c</file>
+      <file>$PROJ_DIR$\obj\GptLib.pbi</file>
+      <file>$PROJ_DIR$\obj\DioLib.pbi</file>
+      <file>$PROJ_DIR$\obj\ClkLib.pbi</file>
+      <file>$PROJ_DIR$\obj\AdcLib.pbi</file>
+      <file>$PROJ_DIR$\obj\startup_ADuCRF101.o</file>
+      <file>$PROJ_DIR$\obj\uart.pbi</file>
+      <file>$PROJ_DIR$\obj\Retarget.pbi</file>
+      <file>$PROJ_DIR$\obj\ADCchannels.pbi</file>
+      <file>$PROJ_DIR$\obj\AdcLib.o</file>
+      <file>$PROJ_DIR$\obj\RstLib.o</file>
+      <file>$PROJ_DIR$\obj\SpiLib.o</file>
+      <file>$PROJ_DIR$\obj\UrtLib.o</file>
+      <file>$PROJ_DIR$\obj\DioLib.o</file>
+      <file>$PROJ_DIR$\obj\uart.o</file>
+      <file>$PROJ_DIR$\obj\ClkLib.o</file>
+      <file>$PROJ_DIR$\obj\GptLib.o</file>
+      <file>$PROJ_DIR$\obj\WutLib.o</file>
+      <file>$PROJ_DIR$\obj\WdtLib.o</file>
+      <file>$PROJ_DIR$\obj\IntLib.o</file>
+      <file>$PROJ_DIR$\obj\PwrLib.o</file>
+      <file>$PROJ_DIR$\obj\Retarget.o</file>
+      <file>$PROJ_DIR$\obj\ADCchannels.o</file>
+      <file>$PROJ_DIR$\src\ADCchannels.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\WdtLib.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\WutLib.c</file>
+      <file>$PROJ_DIR$\..\..\Common\IAR\Retarget.c</file>
+      <file>$PROJ_DIR$\src\ADCcontDMA.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\UrtLib.c</file>
+      <file>$PROJ_DIR$\src\ADCRatioMetric.c</file>
+      <file>$PROJ_DIR$\src\ADCTempSensor.c</file>
+      <file>$PROJ_DIR$\src\ADCtimerDMA.c</file>
+      <file>$PROJ_DIR$\..\..\Common\IAR\startup_ADuCRF101.s</file>
+      <file>$PROJ_DIR$\..\..\Common\uart.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\AdcLib.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\ClkLib.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\DioLib.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\GptLib.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\IntLib.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\PwrLib.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\RstLib.c</file>
+      <file>$PROJ_DIR$\..\..\DasLib\SpiLib.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\obj\WdtLib.pbi</file>
+      <file>$PROJ_DIR$\obj\UrtLib.pbi</file>
+      <file>$PROJ_DIR$\obj\RstLib.pbi</file>
+      <file>$PROJ_DIR$\obj\SpiLib.pbi</file>
+      <file>$PROJ_DIR$\obj\Output.out</file>
+      <file>$PROJ_DIR$\obj\ADC.pbd</file>
+      <file>$PROJ_DIR$\obj\IntLib.pbi</file>
+      <file>$PROJ_DIR$\obj\PwrLib.pbi</file>
+      <file>$PROJ_DIR$\obj\ADuCM301.hex</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\obj\WutLib.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 91 36 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ADCchannels.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 5 4 3 8 9 86 85 84 83 82 81 80 79 96 2 7 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 5 4 3 8 33 9 86 85 84 83 82 81 80 79 96 2 7 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\WdtLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\WutLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Common\IAR\Retarget.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 5 4 3 8 9 86 85 84 83 82 81 80 79 96 2 7 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 5 4 3 8 33 9 86 85 84 83 82 81 80 79 96 2 7 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\UrtLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Common\IAR\startup_ADuCRF101.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Common\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 5 4 3 8 9 86 85 84 83 82 81 80 79 96 2 7 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 5 4 3 8 33 9 86 85 84 83 82 81 80 79 96 2 7 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\AdcLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\ClkLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\DioLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\GptLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\IntLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\PwrLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\RstLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\DasLib\SpiLib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 7 10 11 4 3 8 9 86 85 12 13 14 15 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26 7 10 11 4 3 8 33 9 86 85 12 13 14 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\obj\Output.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 36 30</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 34 59 46 52 50 53 56 57 58 47 48 49 55 54 42 51 32 35 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\obj\ADC.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 41 40 39 38 93 94 89 90 88 87 97 45 44 43</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>ADCcont</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>ADCcontDMA</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>ADCtimerDMA</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>ADCtimerOverflow</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>RatioMetric</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>TempSensor</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

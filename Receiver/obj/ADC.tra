@@ -1,0 +1,27 @@
+*** Creating Trace Output File '.\obj\ADC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_aducrf101.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\batery.o"'
+### List of Objects: adding '".\obj\leds.o"'
+### List of Objects: adding '".\obj\radioeng.o"'
+### List of Objects: adding '".\obj\output.o"'
+### List of Objects: adding '".\obj\config.o"'
+### List of Objects: adding '".\obj\outdac.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\startup_aducrf101.o" ".\obj\main.o" ".\obj\batery.o" ".\obj\leds.o" ".\obj\radioeng.o" ".\obj\output.o" ".\obj\config.o" ".\obj\outdac.o" 
+--library_type=microlib --strict --scatter ".\obj\ADC.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\ADC.map" -o .\obj\ADC.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\ADC.axf'
+### ADS-LD Command File: '.\obj\ADC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\ADC.lnp', Handle=0x000001C4
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\ADC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,14 @@
+.\obj\convert.o: convert.c
+.\obj\convert.o: C:\Keil\ARM\Inc\ADI\ADUCRF101.h
+.\obj\convert.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\convert.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\convert.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\convert.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\convert.o: C:\Keil\ARM\Inc\ADI\system_ADUCRF101.h
+.\obj\convert.o: switches.h
+.\obj\convert.o: WdtLib.h
+.\obj\convert.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\obj\convert.o: leds.h
+.\obj\convert.o: batery.h
+.\obj\convert.o: microphone.h
+.\obj\convert.o: convert.h

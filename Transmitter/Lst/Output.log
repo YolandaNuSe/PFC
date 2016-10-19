@@ -1,0 +1,2330 @@
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\ADCchannels.o.
+              reference :  AdcCfg
+              reference :  AdcCnv
+              reference :  AdcInit
+              reference :  AdcPd
+              reference :  AdcRd
+              reference :  AdcSta
+              reference :  GptCfg
+              reference :  GptClrInt
+              reference :  GptLd
+              reference :  GptSta
+              reference :  UrtCfg
+              reference :  WdtGo
+              reference :  printf
+              definition:  GP_Tmr1_Int_Handler
+              definition:  UARTInit
+              definition:  cSeq
+              definition:  main
+              definition:  ucTimeout
+              definition:  __iar_cc..gEsTCrxeoQ6
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\AdcLib.o.
+              definition:  AdcCfg
+              definition:  AdcCnv
+              definition:  AdcGn
+              definition:  AdcInit
+              definition:  AdcOf
+              definition:  AdcPd
+              definition:  AdcRd
+              definition:  AdcSta
+              definition:  gain_correction
+              definition:  offset_correction
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\ClkLib.o.
+              definition:  ExtClkCfg
+              definition:  PerClkAct
+              definition:  PerClkIni
+              definition:  PerClkPd
+              definition:  SysClkCfg
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\DioLib.o.
+              definition:  DioCfg
+              definition:  DioClr
+              definition:  DioDrv
+              definition:  DioOce
+              definition:  DioOen
+              definition:  DioPul
+              definition:  DioRd
+              definition:  DioSet
+              definition:  DioTgl
+              definition:  DioWr
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\GptLib.o.
+              definition:  GptBsy
+              definition:  GptCapRd
+              definition:  GptCapSrc
+              definition:  GptCfg
+              definition:  GptClrInt
+              definition:  GptLd
+              definition:  GptSta
+              definition:  GptVal
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\IntLib.o.
+              definition:  EiCfg
+              definition:  EiClr
+              definition:  NmiClr
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\PwrLib.o.
+              definition:  PsmCfg
+              definition:  PwrCfg
+              definition:  PwrSta
+              definition:  SramCfg
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\Retarget.o.
+              reference :  Urt_DataBytWr
+              definition:  __read
+              definition:  __write
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\RstLib.o.
+              definition:  RstClr
+              definition:  RstSta
+              definition:  ShutSta
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\SpiLib.o.
+              definition:  SpiBaud
+              definition:  SpiCfg
+              definition:  SpiCountRd
+              definition:  SpiDma
+              definition:  SpiFifoFlush
+              definition:  SpiRx
+              definition:  SpiRxFifoFlush
+              definition:  SpiSta
+              definition:  SpiTx
+              definition:  SpiTxFifoFlush
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\UrtLib.o.
+              definition:  UrtCfg
+              definition:  UrtDma
+              definition:  UrtIntCfg
+              definition:  UrtIntSta
+              definition:  UrtLinSta
+              definition:  UrtMod
+              definition:  UrtRx
+              definition:  UrtTx
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\WdtLib.o.
+              definition:  WdtCfg
+              definition:  WdtClrInt
+              definition:  WdtGo
+              definition:  WdtLd
+              definition:  WdtSta
+              definition:  WdtVal
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\WutLib.o.
+              definition:  WutCfg
+              definition:  WutCfgInt
+              definition:  WutClrInt
+              definition:  WutGo
+              definition:  WutInc
+              definition:  WutLdRd
+              definition:  WutLdWr
+              definition:  WutSta
+              definition:  WutVal
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\startup_ADuCRF101.o.
+              reference :  __iar_program_start
+              definition:  __vector_table
+              weak def  :  Nmi_Handler
+              weak def  :  Fault_Handler
+              weak def  :  MemManage_Handler
+              weak def  :  BusFault_Handler
+              weak def  :  UsageFault_Handler
+              weak def  :  SVC_Handler
+              weak def  :  DebugMon_Handler
+              weak def  :  PendSV_Handler
+              weak def  :  SysTick_Handler
+              weak def  :  WakeUp_Int_Handler
+              weak def  :  Ext_Int0_Handler
+              weak def  :  Ext_Int1_Handler
+              weak def  :  Ext_Int2_Handler
+              weak def  :  Ext_Int3_Handler
+              weak def  :  Ext_Int4_Handler
+              weak def  :  Ext_Int5_Handler
+              weak def  :  Ext_Int6_Handler
+              weak def  :  Ext_Int7_Handler
+              weak def  :  Ext_Int8_Handler
+              weak def  :  WDog_Tmr_Int_Handler
+              weak def  :  GP_Tmr0_Int_Handler
+              weak def  :  GP_Tmr1_Int_Handler
+              weak def  :  ADC0_Int_Handler
+              weak def  :  Flsh_Int_Handler
+              weak def  :  UART_Int_Handler
+              weak def  :  SPI0_Int_Handler
+              weak def  :  SPI1_Int_Handler
+              weak def  :  I2C0_Slave_Int_Handler
+              weak def  :  I2C0_Master_Int_Handler
+              weak def  :  DMA_Err_Int_Handler
+              weak def  :  DMA_SPI1_TX_Int_Handler
+              weak def  :  DMA_SPI1_RX_Int_Handler
+              weak def  :  DMA_UART_TX_Int_Handler
+              weak def  :  DMA_UART_RX_Int_Handler
+              weak def  :  DMA_I2C0_STX_Int_Handler
+              weak def  :  DMA_I2C0_SRX_Int_Handler
+              weak def  :  DMA_I2C0_MTX_Int_Handler
+              weak def  :  DMA_I2C0_MRX_Int_Handler
+              weak def  :  DMA_ADC_Int_Handler
+              weak def  :  DMA_SPI0_TX_Int_Handler
+              weak def  :  DMA_SPI0_RX_Int_Handler
+              weak def  :  PWMTrip_Int_Handler
+              weak def  :  PWM0_Int_Handler
+              weak def  :  PWM1_Int_Handler
+              weak def  :  PWM2_Int_Handler
+              weak def  :  PWM3_Int_Handler
+              weak def  :  UnUsed_Handler
+              reference :  CSTACK$$Limit
+Loading object C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\uart.o.
+              definition:  Urt_DataAvail
+              definition:  Urt_DataBytRd
+              definition:  Urt_DataBytWr
+              definition:  Urt_Init
+              definition:  Urt_PinSetup
+Selecting member cstartup_M.o(rt7M_tl.a) to define __iar_program_start.
+              reference :  __cmain
+              reference :  __vector_table
+              weak ref  :  __iar_init_core
+              weak ref  :  __iar_init_vfp
+              definition:  __iar_program_start
+Selecting member printf.o(dl7M_tln.a) to define printf.
+              reference :  _PrintfFull
+              reference :  _Prout
+              definition:  __iar_default_requirements$$_Printf<unknown>printf
+              definition:  printf
+Selecting member cmain.o(rt7M_tl.a) to define __cmain.
+              weak ref  :  __iar_data_init3
+              reference :  __low_level_init
+              reference :  main
+              reference :  exit
+              definition:  __cmain
+              definition:  ?main
+              definition:  _main
+              definition:  _call_main
+Selecting member xprintffull.o(dl7M_tln.a) to define _PrintfFull.
+              reference :  __aeabi_cdcmple
+              reference :  __aeabi_cdrcmple
+              reference :  __aeabi_d2iz
+              reference :  __aeabi_d2uiz
+              reference :  __aeabi_ddiv
+              reference :  __aeabi_dmul
+              reference :  __aeabi_dsub
+              reference :  __aeabi_i2d
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_ui2d
+              reference :  __aeabi_uldivmod
+              reference :  __iar_Dnorm
+              reference :  __iar_Dscale
+              reference :  __iar_Memchr
+              reference :  __iar_Strchr
+              reference :  div
+              reference :  strlen
+              definition:  _PrintfFull
+              definition:  __iar_provide$$_Printf<flags,floats,hex_floats,int_specials,long_longs,n_formatters,qualifiers,widths>_PrintfFull
+Selecting member xprout.o(dl7M_tln.a) to define _Prout.
+              reference :  putchar
+              definition:  _Prout
+Selecting member low_level_init.o(dl7M_tln.a) to define __low_level_init.
+              definition:  __low_level_init
+Selecting member exit.o(dl7M_tln.a) to define exit.
+              reference :  _exit
+              definition:  exit
+Selecting member DblCmpLe.o(m7M_tl.a) to define __aeabi_cdcmple.
+              definition:  __aeabi_cdcmple
+Selecting member DblCmpGe.o(m7M_tl.a) to define __aeabi_cdrcmple.
+              definition:  __aeabi_cdrcmple
+Selecting member DblToI32.o(m7M_tl.a) to define __aeabi_d2iz.
+              definition:  __aeabi_d2iz
+              definition:  __aeabi_d2uiz
+              definition:  __iar_d2uiz
+Selecting member DblDiv.o(m7M_tl.a) to define __aeabi_ddiv.
+              definition:  __aeabi_ddiv
+Selecting member DblMul.o(m7M_tl.a) to define __aeabi_dmul.
+              definition:  __aeabi_dmul
+Selecting member DblSub.o(m7M_tl.a) to define __aeabi_dsub.
+              reference :  __iar_dadd
+              definition:  __iar_dsub
+              definition:  __aeabi_dsub
+              definition:  __iar_dsubStart
+Selecting member I32ToDbl.o(m7M_tl.a) to define __aeabi_i2d.
+              definition:  __aeabi_i2d
+              definition:  __aeabi_ui2d
+              definition:  __iar_ui2d
+Selecting member ABImemcpy.o(rt7M_tl.a) to define __aeabi_memcpy.
+              definition:  __aeabi_memcpy
+              definition:  __aeabi_memcpy4
+              definition:  __aeabi_memcpy8
+Selecting member I64DivMod.o(rt7M_tl.a) to define __aeabi_uldivmod.
+              reference :  __aeabi_ldiv0
+              definition:  __aeabi_ldivmod
+              definition:  __aeabi_uldivmod
+Selecting member xdnorm.o(m7M_tl.a) to define __iar_Dnorm.
+              definition:  __iar_Dnorm
+Selecting member xdscale.o(m7M_tl.a) to define __iar_Dscale.
+              reference :  __iar_Dnorm
+              definition:  __iar_Dscale
+Selecting member memchr.o(rt7M_tl.a) to define __iar_Memchr.
+              definition:  memchr
+              definition:  __iar_Memchr
+Selecting member strchr.o(rt7M_tl.a) to define __iar_Strchr.
+              definition:  strchr
+              definition:  __iar_Strchr
+Selecting member div.o(dl7M_tln.a) to define div.
+              definition:  div
+Selecting member strlen.o(rt7M_tl.a) to define strlen.
+              definition:  strlen
+Selecting member putchar.o(dl7M_tln.a) to define putchar.
+              reference :  __write
+              definition:  putchar
+Selecting member cexit.o(rt7M_tl.a) to define _exit.
+              weak ref  :  __call_dtors
+              weak ref  :  _Close_all
+              weak ref  :  __iar_clearlocks
+              reference :  __exit
+              definition:  _exit
+              definition:  __cexit_call_dtors
+              definition:  __cexit_closeall
+              definition:  __cexit_clearlocks
+Selecting member DblAdd.o(m7M_tl.a) to define __iar_dadd.
+              reference :  __iar_dsub
+              definition:  __aeabi_dadd
+              definition:  __iar_dadd
+Selecting member I64DivZer.o(rt7M_tl.a) to define __aeabi_ldiv0.
+              definition:  __aeabi_ldiv0
+Selecting member XXexit.o(rt7M_tl.a) to define __exit.
+              definition:  __exit
+Selecting member data_init3.o(rt7M_tl.a) to define __iar_data_init3 (optional).
+              definition:  __iar_data_init3
+              reference :  Region$$Table$$Base
+              reference :  Region$$Table$$Limit
+Selecting member zero_init3.o(rt7M_tl.a) to define __iar_zero_init3 (optional).
+              definition:  SB
+              definition:  __iar_zero_init3
+Selecting member copy_init3.o(rt7M_tl.a) to define __iar_copy_init3 (optional).
+              definition:  SB
+              definition:  __iar_copy_init3
+Selecting member rle_init3.o(rt7M_tl.a) to define __iar_rle_init3 (optional).
+              definition:  SB
+              definition:  __iar_rle_init3
+Selecting member packbits_init3.o(rt7M_tl.a) to define __iar_packbits_init3 (optional).
+              definition:  SB
+              definition:  __iar_packbits_init3
+Selecting member lzw_init3c.o(rt7M_tl.a) to define __iar_lzw_init3 (optional).
+              reference :  abort
+              definition:  SB
+              definition:  __iar_lzw_init3
+Selecting member bwt_init3c.o(rt7M_tl.a) to define __iar_bwt_init3 (optional).
+              reference :  __aeabi_memclr4
+              reference :  abort
+              definition:  SB
+              definition:  __iar_bwt_init3
+Selecting member abort.o(dl7M_tln.a) to define abort (optional).
+              reference :  __exit
+              definition:  abort
+Selecting member ABImemclr4.o(rt7M_tl.a) to define __aeabi_memclr4 (optional).
+              reference :  __iar_Memset4_word
+              definition:  __aeabi_memclr4
+Selecting member ABImemset48.o(rt7M_tl.a) to define __iar_Memset4_word (optional).
+              definition:  __aeabi_memset4
+              definition:  __aeabi_memset8
+              definition:  __iar_Memset4_word
+              definition:  __iar_Memset8_word
+Resolving duplicate symbol definitions
+  Picking GP_Tmr1_Int_Handler [s8 C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\ADCchannels.o]
+    Suppressing GP_Tmr1_Int_Handler [s8 C:\Beta_ADuCRF101v0.4\Code\Examples\ADC\obj\startup_ADuCRF101.o]
+  Picking SB [s7 bwt_init3c.o(rt7M_tl.a)]
+    Suppressing SB [s7 zero_init3.o(rt7M_tl.a)]
+    Suppressing SB [s7 copy_init3.o(rt7M_tl.a)]
+    Suppressing SB [s7 rle_init3.o(rt7M_tl.a)]
+    Suppressing SB [s7 packbits_init3.o(rt7M_tl.a)]
+    Suppressing SB [s7 lzw_init3c.o(rt7M_tl.a)]
+*** Marking from roots ***
+Marking symbol __iar_program_start                Glb  (10 cstartup_M.o) [program entry]
+  Marking fragment #689 .text (6 cstartup_M.o(rt7M_tl.a)) init:always
+Marking symbol __iar_section$$root                     (3 startup_ADuCRF101.o) [__root]
+  Marking fragment #642 .text (8 startup_ADuCRF101.o)
+Marking symbol __iar_section$$root                     (3 cstartup_M.o) [__root]
+  Marking fragment #689 .text (6 cstartup_M.o(rt7M_tl.a))
+Marking from fragment #642 .text (8 startup_ADuCRF101.o)
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o)
+Marking from fragment #689 .text (6 cstartup_M.o(rt7M_tl.a)) init:always
+  Marking symbol __iar_init_core                Ext      (8 cstartup_M.o)
+  Marking symbol __vector_table                     Glb  (11 startup_ADuCRF101.o)
+    Marking fragment #641 .intvec (7 startup_ADuCRF101.o) init:always
+  Marking symbol __iar_init_vfp                 Ext      (9 cstartup_M.o)
+  Marking symbol __cmain                            Glb  (13 cmain.o)
+    Marking fragment #1099 .text (8 cmain.o(rt7M_tl.a)) init:always
+Marking from fragment #1099 .text (8 cmain.o(rt7M_tl.a)) init:always
+  Marking symbol __low_level_init                   Glb  (8 low_level_init.o)
+    Marking fragment #724 .text (6 low_level_init.o(dl7M_tln.a)) init:always
+  Marking symbol _call_main                         Glb  (16 cmain.o)
+    Marking fragment #1100 .text (8 cmain.o(rt7M_tl.a))
+  Marking symbol __iar_data_init3                   Glb  (12 data_init3.o)
+Marking from fragment #1100 .text (8 cmain.o(rt7M_tl.a))
+  Marking symbol main                               Glb  (89 ADCchannels.o)
+    Marking fragment #939 .text (8 ADCchannels.o)
+  Marking symbol exit                               Glb  (11 exit.o)
+    Marking fragment #729 .text (6 exit.o(dl7M_tln.a))
+Marking from fragment #729 .text (6 exit.o(dl7M_tln.a))
+  Marking symbol _exit                              Glb  (14 cexit.o)
+    Marking fragment #1120 .text (6 cexit.o(rt7M_tl.a))
+Marking from fragment #1120 .text (6 cexit.o(rt7M_tl.a))
+  Marking symbol                                         (9 cexit.o)
+    Marking fragment #1124 .text (6 cexit.o(rt7M_tl.a))
+Marking from fragment #1124 .text (6 cexit.o(rt7M_tl.a))
+  Marking symbol __exit                             Glb  (6 XXexit.o)
+    Marking fragment #840 .text (6 XXexit.o(rt7M_tl.a))
+Marking from fragment #840 .text (6 XXexit.o(rt7M_tl.a))
+Marking from fragment #939 .text (8 ADCchannels.o)
+  Marking symbol WdtGo                              Glb  (59 WdtLib.o)
+    Marking fragment #1050 .text (8 WdtLib.o)
+  Marking symbol UARTInit                           Glb  (87 ADCchannels.o)
+    Marking fragment #940 .text (8 ADCchannels.o)
+  Marking symbol AdcPd                              Glb  (99 AdcLib.o)
+    Marking fragment #952 .text (8 AdcLib.o)
+  Marking symbol ??DataTable4_2                          (8 ADCchannels.o)
+    Marking fragment #944 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o)
+  Marking symbol GptLd                              Glb  (74 GptLib.o)
+    Marking fragment #988 .text (8 GptLib.o)
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o)
+  Marking symbol GptCfg                             Glb  (72 GptLib.o)
+    Marking fragment #987 .text (8 GptLib.o)
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o)
+  Marking symbol GptClrInt                          Glb  (73 GptLib.o)
+    Marking fragment #993 .text (8 GptLib.o)
+  Marking symbol NVIC_EnableIRQ                          (25 ADCchannels.o)
+    Marking fragment #937 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_2                          (8 ADCchannels.o)
+    Marking fragment #944 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_2                          (8 ADCchannels.o)
+    Marking fragment #944 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o)
+  Marking symbol GptCfg                             Glb  (72 GptLib.o)
+    Marking fragment #987 .text (8 GptLib.o)
+  Marking symbol AdcInit                            Glb  (97 AdcLib.o)
+    Marking fragment #953 .text (8 AdcLib.o)
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o)
+  Marking symbol GptLd                              Glb  (74 GptLib.o)
+    Marking fragment #988 .text (8 GptLib.o)
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o)
+  Marking symbol GptCfg                             Glb  (72 GptLib.o)
+    Marking fragment #987 .text (8 GptLib.o)
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o)
+  Marking symbol GptClrInt                          Glb  (73 GptLib.o)
+    Marking fragment #993 .text (8 GptLib.o)
+  Marking symbol ??DataTable4_2                          (8 ADCchannels.o)
+    Marking fragment #944 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o)
+  Marking symbol GptCfg                             Glb  (72 GptLib.o)
+    Marking fragment #987 .text (8 GptLib.o)
+  Marking symbol NVIC_DisableIRQ                         (24 ADCchannels.o)
+    Marking fragment #938 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_4                          (10 ADCchannels.o)
+    Marking fragment #946 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_5                          (11 ADCchannels.o)
+    Marking fragment #947 .text (8 ADCchannels.o)
+  Marking symbol printf                             Glb  (14 printf.o)
+    Marking fragment #693 .text (6 printf.o(dl7M_tln.a))
+  Marking symbol ??DataTable4_6                          (12 ADCchannels.o)
+    Marking fragment #948 .text (8 ADCchannels.o)
+  Marking symbol printf                             Glb  (14 printf.o)
+    Marking fragment #693 .text (6 printf.o(dl7M_tln.a))
+  Marking symbol ??DataTable4_7                          (13 ADCchannels.o)
+    Marking fragment #949 .text (8 ADCchannels.o)
+  Marking symbol AdcCfg                             Glb  (94 AdcLib.o)
+    Marking fragment #957 .text (8 AdcLib.o)
+  Marking symbol AdcCnv                             Glb  (95 AdcLib.o)
+    Marking fragment #954 .text (8 AdcLib.o)
+  Marking symbol AdcSta                             Glb  (101 AdcLib.o)
+    Marking fragment #956 .text (8 AdcLib.o)
+  Marking symbol AdcRd                              Glb  (100 AdcLib.o)
+    Marking fragment #955 .text (8 AdcLib.o)
+  Marking symbol ??DataTable4_8                          (14 ADCchannels.o)
+    Marking fragment #950 .text (8 ADCchannels.o)
+  Marking symbol printf                             Glb  (14 printf.o)
+    Marking fragment #693 .text (6 printf.o(dl7M_tln.a))
+Marking from fragment #950 .text (8 ADCchannels.o)
+  Marking symbol ?<Constant "result %d\n">               (5 ADCchannels.o)
+    Marking fragment #11 .rodata (16 ADCchannels.o)
+Marking from fragment #11 .rodata (16 ADCchannels.o)
+Marking from fragment #955 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_2                          (12 AdcLib.o)
+    Marking fragment #964 .text (8 AdcLib.o)
+  Marking symbol gain_correction                    Glb  (102 AdcLib.o)
+    Marking fragment #960 .text (8 AdcLib.o)
+Marking from fragment #960 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_4                          (14 AdcLib.o)
+    Marking fragment #966 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_2                          (12 AdcLib.o)
+    Marking fragment #964 .text (8 AdcLib.o)
+Marking from fragment #966 .text (8 AdcLib.o)
+Marking from fragment #964 .text (8 AdcLib.o)
+Marking from fragment #956 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_3                          (13 AdcLib.o)
+    Marking fragment #965 .text (8 AdcLib.o)
+Marking from fragment #965 .text (8 AdcLib.o)
+Marking from fragment #954 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_1                          (11 AdcLib.o)
+    Marking fragment #963 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_1                          (11 AdcLib.o)
+    Marking fragment #963 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_1                          (11 AdcLib.o)
+    Marking fragment #963 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_1                          (11 AdcLib.o)
+    Marking fragment #963 .text (8 AdcLib.o)
+Marking from fragment #963 .text (8 AdcLib.o)
+Marking from fragment #957 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9                            (10 AdcLib.o)
+    Marking fragment #962 .text (8 AdcLib.o)
+Marking from fragment #962 .text (8 AdcLib.o)
+Marking from fragment #949 .text (8 ADCchannels.o)
+Marking from fragment #948 .text (8 ADCchannels.o)
+  Marking symbol ?<Constant "press IRQ2\n">              (4 ADCchannels.o)
+    Marking fragment #10 .rodata (15 ADCchannels.o)
+Marking from fragment #10 .rodata (15 ADCchannels.o)
+Marking from fragment #693 .text (6 printf.o(dl7M_tln.a))
+  Marking symbol _PrintfFull                        Glb  (52 xprintffull.o)
+    Marking fragment #1101 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _Prout                             Glb  (11 xprout.o)
+    Marking fragment #717 .text (6 xprout.o(dl7M_tln.a))
+Marking from fragment #717 .text (6 xprout.o(dl7M_tln.a))
+  Marking symbol putchar                            Glb  (11 putchar.o)
+    Marking fragment #819 .text (6 putchar.o(dl7M_tln.a))
+Marking from fragment #819 .text (6 putchar.o(dl7M_tln.a))
+  Marking symbol __write                            Glb  (35 Retarget.o)
+    Marking fragment #1014 .text (8 Retarget.o)
+Marking from fragment #1014 .text (8 Retarget.o)
+  Marking symbol Urt_DataBytWr                      Glb  (61 uart.o)
+    Marking fragment #1091 .text (8 uart.o)
+  Marking symbol Urt_DataBytWr                      Glb  (61 uart.o)
+    Marking fragment #1091 .text (8 uart.o)
+Marking from fragment #1091 .text (8 uart.o)
+  Marking symbol ??DataTable4                            (3 uart.o)
+    Marking fragment #1092 .text (8 uart.o)
+  Marking symbol ??DataTable4_6                          (9 uart.o)
+    Marking fragment #1098 .text (8 uart.o)
+Marking from fragment #1098 .text (8 uart.o)
+Marking from fragment #1092 .text (8 uart.o)
+Marking from fragment #1101 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol ?<Constant "hjltzL">                    (6 xprintffull.o)
+    Marking fragment #1110 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __iar_Strchr                       Glb  (7 strchr.o)
+    Marking fragment #802 .text (6 strchr.o(rt7M_tl.a))
+  Marking symbol strlen                             Glb  (6 strlen.o)
+    Marking fragment #814 .text (6 strlen.o(rt7M_tl.a))
+  Marking symbol __iar_Memchr                       Glb  (7 memchr.o)
+    Marking fragment #797 .text (6 memchr.o(rt7M_tl.a))
+  Marking symbol _LitobFull                              (11 xprintffull.o)
+    Marking fragment #1102 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _LdtobFull                              (10 xprintffull.o)
+    Marking fragment #1103 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _PutcharsFull                           (12 xprintffull.o)
+    Marking fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _PutcharsFull                           (12 xprintffull.o)
+    Marking fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _PutcharsFull                           (12 xprintffull.o)
+    Marking fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _PutcharsFull                           (12 xprintffull.o)
+    Marking fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _PutcharsFull                           (12 xprintffull.o)
+    Marking fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _PutcharsFull                           (12 xprintffull.o)
+    Marking fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _PutcharsFull                           (12 xprintffull.o)
+    Marking fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol _PutcharsFull                           (12 xprintffull.o)
+    Marking fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #1109 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #1103 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol ?<Constant "INF">                       (4 xprintffull.o)
+    Marking fragment #1114 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __aeabi_memcpy                     Glb  (6 ABImemcpy.o)
+    Marking fragment #773 .text (6 ABImemcpy.o(rt7M_tl.a))
+  Marking symbol ?<Constant "NAN">                       (5 xprintffull.o)
+    Marking fragment #1112 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __iar_Dnorm                        Glb  (11 xdnorm.o)
+    Marking fragment #783 .text (6 xdnorm.o(m7M_tl.a))
+  Marking symbol ?<Constant "nan">                       (8 xprintffull.o)
+    Marking fragment #1111 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol ?<Constant "inf">                       (7 xprintffull.o)
+    Marking fragment #1113 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __aeabi_cdcmple                    Glb  (6 DblCmpLe.o)
+    Marking fragment #736 .text (6 DblCmpLe.o(m7M_tl.a))
+  Marking symbol __aeabi_cdrcmple                   Glb  (6 DblCmpGe.o)
+    Marking fragment #741 .text (6 DblCmpGe.o(m7M_tl.a))
+  Marking symbol __iar_Dscale                       Glb  (12 xdscale.o)
+    Marking fragment #790 .text (6 xdscale.o(m7M_tl.a))
+  Marking symbol __aeabi_d2iz                       Glb  (8 DblToI32.o)
+    Marking fragment #1116 .text (6 DblToI32.o(m7M_tl.a))
+  Marking symbol __aeabi_i2d                        Glb  (8 I32ToDbl.o)
+    Marking fragment #1118 .text (6 I32ToDbl.o(m7M_tl.a))
+  Marking symbol __aeabi_dsub                       Glb  (8 DblSub.o)
+    Marking fragment #762 .text (6 DblSub.o(m7M_tl.a))
+  Marking symbol __aeabi_cdcmple                    Glb  (6 DblCmpLe.o)
+    Marking fragment #736 .text (6 DblCmpLe.o(m7M_tl.a))
+  Marking symbol .text_5                                 (20 xprintffull.o)
+    Marking fragment #1104 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol .text_6                                 (22 xprintffull.o)
+    Marking fragment #1105 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __aeabi_dmul                       Glb  (6 DblMul.o)
+    Marking fragment #757 .text (6 DblMul.o(m7M_tl.a))
+  Marking symbol __aeabi_dmul                       Glb  (6 DblMul.o)
+    Marking fragment #757 .text (6 DblMul.o(m7M_tl.a))
+  Marking symbol .text_7                                 (23 xprintffull.o)
+    Marking fragment #1106 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __aeabi_dmul                       Glb  (6 DblMul.o)
+    Marking fragment #757 .text (6 DblMul.o(m7M_tl.a))
+  Marking symbol __aeabi_dmul                       Glb  (6 DblMul.o)
+    Marking fragment #757 .text (6 DblMul.o(m7M_tl.a))
+  Marking symbol __aeabi_ddiv                       Glb  (6 DblDiv.o)
+    Marking fragment #752 .text (6 DblDiv.o(m7M_tl.a))
+  Marking symbol .text_8                                 (24 xprintffull.o)
+    Marking fragment #1107 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __aeabi_d2uiz                      Glb  (9 DblToI32.o)
+    Marking fragment #1117 .text (6 DblToI32.o(m7M_tl.a))
+  Marking symbol __aeabi_d2uiz                      Glb  (9 DblToI32.o)
+    Marking fragment #1117 .text (6 DblToI32.o(m7M_tl.a))
+  Marking symbol __aeabi_ui2d                       Glb  (9 I32ToDbl.o)
+    Marking fragment #1119 .text (6 I32ToDbl.o(m7M_tl.a))
+  Marking symbol __aeabi_dsub                       Glb  (8 DblSub.o)
+    Marking fragment #762 .text (6 DblSub.o(m7M_tl.a))
+  Marking symbol __aeabi_dmul                       Glb  (6 DblMul.o)
+    Marking fragment #757 .text (6 DblMul.o(m7M_tl.a))
+  Marking symbol _GenldFull                              (9 xprintffull.o)
+    Marking fragment #1108 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #1108 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol ?<Constant "0">                         (3 xprintffull.o)
+    Marking fragment #1115 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __aeabi_memcpy                     Glb  (6 ABImemcpy.o)
+    Marking fragment #773 .text (6 ABImemcpy.o(rt7M_tl.a))
+  Marking symbol __aeabi_memcpy                     Glb  (6 ABImemcpy.o)
+    Marking fragment #773 .text (6 ABImemcpy.o(rt7M_tl.a))
+  Marking symbol __aeabi_memcpy                     Glb  (6 ABImemcpy.o)
+    Marking fragment #773 .text (6 ABImemcpy.o(rt7M_tl.a))
+  Marking symbol __aeabi_memcpy                     Glb  (6 ABImemcpy.o)
+    Marking fragment #773 .text (6 ABImemcpy.o(rt7M_tl.a))
+  Marking symbol __aeabi_memcpy                     Glb  (6 ABImemcpy.o)
+    Marking fragment #773 .text (6 ABImemcpy.o(rt7M_tl.a))
+  Marking symbol div                                Glb  (10 div.o)
+    Marking fragment #807 .text (6 div.o(dl7M_tln.a))
+Marking from fragment #807 .text (6 div.o(dl7M_tln.a))
+Marking from fragment #1115 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #1119 .text (6 I32ToDbl.o(m7M_tl.a))
+Marking from fragment #1117 .text (6 DblToI32.o(m7M_tl.a))
+Marking from fragment #1107 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #752 .text (6 DblDiv.o(m7M_tl.a))
+Marking from fragment #1106 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #757 .text (6 DblMul.o(m7M_tl.a))
+Marking from fragment #1105 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #1104 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #762 .text (6 DblSub.o(m7M_tl.a))
+  Marking symbol __iar_dadd                         Glb  (8 DblAdd.o)
+    Marking fragment #830 .text (6 DblAdd.o(m7M_tl.a))
+Marking from fragment #830 .text (6 DblAdd.o(m7M_tl.a))
+  Marking symbol __iar_dsub                         Glb  (7 DblSub.o)
+    Marking fragment #762 .text (6 DblSub.o(m7M_tl.a))
+Marking from fragment #1118 .text (6 I32ToDbl.o(m7M_tl.a))
+  Marking symbol __iar_ui2d                         Glb  (10 I32ToDbl.o)
+    Marking fragment #1119 .text (6 I32ToDbl.o(m7M_tl.a))
+  Marking symbol __iar_ui2d                         Glb  (10 I32ToDbl.o)
+    Marking fragment #1119 .text (6 I32ToDbl.o(m7M_tl.a))
+Marking from fragment #1116 .text (6 DblToI32.o(m7M_tl.a))
+  Marking symbol __iar_d2uiz                        Glb  (10 DblToI32.o)
+    Marking fragment #1117 .text (6 DblToI32.o(m7M_tl.a))
+  Marking symbol __iar_d2uiz                        Glb  (10 DblToI32.o)
+    Marking fragment #1117 .text (6 DblToI32.o(m7M_tl.a))
+Marking from fragment #790 .text (6 xdscale.o(m7M_tl.a))
+  Marking symbol __iar_Dnorm                        Glb  (11 xdnorm.o)
+    Marking fragment #783 .text (6 xdnorm.o(m7M_tl.a))
+Marking from fragment #741 .text (6 DblCmpGe.o(m7M_tl.a))
+Marking from fragment #736 .text (6 DblCmpLe.o(m7M_tl.a))
+Marking from fragment #1113 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #1111 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #783 .text (6 xdnorm.o(m7M_tl.a))
+Marking from fragment #1112 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #773 .text (6 ABImemcpy.o(rt7M_tl.a))
+Marking from fragment #1114 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #1102 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking symbol __aeabi_uldivmod                   Glb  (8 I64DivMod.o)
+    Marking fragment #778 .text (6 I64DivMod.o(rt7M_tl.a))
+Marking from fragment #778 .text (6 I64DivMod.o(rt7M_tl.a))
+  Marking symbol __aeabi_ldiv0                      Glb  (6 I64DivZer.o)
+    Marking fragment #835 .text (6 I64DivZer.o(rt7M_tl.a))
+Marking from fragment #835 .text (6 I64DivZer.o(rt7M_tl.a))
+Marking from fragment #797 .text (6 memchr.o(rt7M_tl.a))
+Marking from fragment #814 .text (6 strlen.o(rt7M_tl.a))
+Marking from fragment #802 .text (6 strchr.o(rt7M_tl.a))
+Marking from fragment #1110 .text (6 xprintffull.o(dl7M_tln.a))
+Marking from fragment #947 .text (8 ADCchannels.o)
+  Marking symbol ?<Constant "configure channel %d\n">          (3 ADCchannels.o)
+    Marking fragment #9 .rodata (14 ADCchannels.o)
+Marking from fragment #9 .rodata (14 ADCchannels.o)
+Marking from fragment #946 .text (8 ADCchannels.o)
+  Marking symbol cSeq                               Glb  (88 ADCchannels.o)
+    Marking fragment #5 .data (10 ADCchannels.o)
+Marking from fragment #5 .data (10 ADCchannels.o)
+Marking from fragment #938 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_1                          (7 ADCchannels.o)
+    Marking fragment #943 .text (8 ADCchannels.o)
+Marking from fragment #943 .text (8 ADCchannels.o)
+Marking from fragment #953 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_1                          (11 AdcLib.o)
+    Marking fragment #963 .text (8 AdcLib.o)
+Marking from fragment #937 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4                            (6 ADCchannels.o)
+    Marking fragment #942 .text (8 ADCchannels.o)
+Marking from fragment #942 .text (8 ADCchannels.o)
+Marking from fragment #993 .text (8 GptLib.o)
+Marking from fragment #987 .text (8 GptLib.o)
+Marking from fragment #988 .text (8 GptLib.o)
+Marking from fragment #945 .text (8 ADCchannels.o)
+Marking from fragment #944 .text (8 ADCchannels.o)
+  Marking symbol ucTimeout                          Glb  (90 ADCchannels.o)
+    Marking fragment #4 .bss (9 ADCchannels.o)
+Marking from fragment #4 .bss (9 ADCchannels.o)
+Marking from fragment #952 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9                            (10 AdcLib.o)
+    Marking fragment #962 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_1                          (11 AdcLib.o)
+    Marking fragment #963 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_1                          (11 AdcLib.o)
+    Marking fragment #963 .text (8 AdcLib.o)
+  Marking symbol ??DataTable9_1                          (11 AdcLib.o)
+    Marking fragment #963 .text (8 AdcLib.o)
+Marking from fragment #940 .text (8 ADCchannels.o)
+  Marking symbol UrtCfg                             Glb  (75 UrtLib.o)
+    Marking fragment #1030 .text (8 UrtLib.o)
+  Marking symbol ??DataTable4_9                          (15 ADCchannels.o)
+    Marking fragment #951 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_9                          (15 ADCchannels.o)
+    Marking fragment #951 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_9                          (15 ADCchannels.o)
+    Marking fragment #951 .text (8 ADCchannels.o)
+  Marking symbol ??DataTable4_9                          (15 ADCchannels.o)
+    Marking fragment #951 .text (8 ADCchannels.o)
+Marking from fragment #951 .text (8 ADCchannels.o)
+Marking from fragment #1030 .text (8 UrtLib.o)
+  Marking symbol ??DataTable7                            (3 UrtLib.o)
+    Marking fragment #1038 .text (8 UrtLib.o)
+  Marking symbol ??DataTable7_1                          (4 UrtLib.o)
+    Marking fragment #1039 .text (8 UrtLib.o)
+  Marking symbol ??DataTable7_2                          (6 UrtLib.o)
+    Marking fragment #1040 .text (8 UrtLib.o)
+  Marking symbol ??DataTable7_3                          (7 UrtLib.o)
+    Marking fragment #1041 .text (8 UrtLib.o)
+  Marking symbol ??DataTable7_4                          (8 UrtLib.o)
+    Marking fragment #1042 .text (8 UrtLib.o)
+  Marking symbol ??DataTable7_5                          (9 UrtLib.o)
+    Marking fragment #1043 .text (8 UrtLib.o)
+  Marking symbol ??DataTable7_6                          (10 UrtLib.o)
+    Marking fragment #1044 .text (8 UrtLib.o)
+Marking from fragment #1044 .text (8 UrtLib.o)
+Marking from fragment #1043 .text (8 UrtLib.o)
+Marking from fragment #1042 .text (8 UrtLib.o)
+Marking from fragment #1041 .text (8 UrtLib.o)
+Marking from fragment #1040 .text (8 UrtLib.o)
+Marking from fragment #1039 .text (8 UrtLib.o)
+Marking from fragment #1038 .text (8 UrtLib.o)
+Marking from fragment #1050 .text (8 WdtLib.o)
+  Marking symbol ??DataTable5_1                          (4 WdtLib.o)
+    Marking fragment #1056 .text (8 WdtLib.o)
+  Marking symbol ??DataTable5_1                          (4 WdtLib.o)
+    Marking fragment #1056 .text (8 WdtLib.o)
+Marking from fragment #1056 .text (8 WdtLib.o)
+Marking from fragment #724 .text (6 low_level_init.o(dl7M_tln.a)) init:always
+Marking from fragment #641 .intvec (7 startup_ADuCRF101.o) init:always
+  Marking symbol CSTACK$$Limit                  Ext Glb  (59 startup_ADuCRF101.o)
+  Marking symbol __iar_program_start                Glb  (10 cstartup_M.o)
+    Marking fragment #689 .text (6 cstartup_M.o(rt7M_tl.a)) init:always
+  Marking symbol Nmi_Handler                             (12 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Fault_Handler                           (13 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol MemManage_Handler                       (14 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol BusFault_Handler                        (15 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UsageFault_Handler                      (16 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol SVC_Handler                             (17 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DebugMon_Handler                        (18 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol PendSV_Handler                          (19 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol SysTick_Handler                         (20 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol WakeUp_Int_Handler                      (21 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int0_Handler                        (22 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int1_Handler                        (23 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int2_Handler                        (24 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int3_Handler                        (25 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int4_Handler                        (26 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int5_Handler                        (27 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int6_Handler                        (28 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int7_Handler                        (29 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Ext_Int8_Handler                        (30 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol WDog_Tmr_Int_Handler                    (31 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol GP_Tmr0_Int_Handler                     (32 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol GP_Tmr1_Int_Handler                Glb  (86 ADCchannels.o)
+    Marking fragment #941 .text (8 ADCchannels.o) init:always
+  Marking symbol ADC0_Int_Handler                        (34 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol Flsh_Int_Handler                        (35 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UART_Int_Handler                        (36 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol SPI0_Int_Handler                        (37 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol SPI1_Int_Handler                        (38 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol I2C0_Slave_Int_Handler                  (39 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol I2C0_Master_Int_Handler                 (40 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_Err_Int_Handler                     (41 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_SPI1_TX_Int_Handler                 (42 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_SPI1_RX_Int_Handler                 (43 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_UART_TX_Int_Handler                 (44 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_UART_RX_Int_Handler                 (45 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_I2C0_STX_Int_Handler                (46 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_I2C0_SRX_Int_Handler                (47 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_I2C0_MTX_Int_Handler                (48 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_I2C0_MRX_Int_Handler                (49 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_ADC_Int_Handler                     (50 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_SPI0_TX_Int_Handler                 (51 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol DMA_SPI0_RX_Int_Handler                 (52 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol PWMTrip_Int_Handler                     (53 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol PWM0_Int_Handler                        (54 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol PWM1_Int_Handler                        (55 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol PWM2_Int_Handler                        (56 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol PWM3_Int_Handler                        (57 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+Marking from fragment #941 .text (8 ADCchannels.o) init:always
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o) init:always
+  Marking symbol GptSta                             Glb  (75 GptLib.o)
+    Marking fragment #992 .text (8 GptLib.o) init:always
+  Marking symbol ??DataTable4_3                          (9 ADCchannels.o)
+    Marking fragment #945 .text (8 ADCchannels.o) init:always
+  Marking symbol GptClrInt                          Glb  (73 GptLib.o)
+    Marking fragment #993 .text (8 GptLib.o) init:always
+  Marking symbol ??DataTable4_2                          (8 ADCchannels.o)
+    Marking fragment #944 .text (8 ADCchannels.o) init:always
+Marking from fragment #944 .text (8 ADCchannels.o) init:always
+  Marking symbol ucTimeout                          Glb  (90 ADCchannels.o)
+    Marking fragment #4 .bss (9 ADCchannels.o) init:always
+Marking from fragment #4 .bss (9 ADCchannels.o) init:always
+Marking from fragment #993 .text (8 GptLib.o) init:always
+Marking from fragment #992 .text (8 GptLib.o) init:always
+Marking from fragment #945 .text (8 ADCchannels.o) init:always
+Marking from fragment #642 .text (8 startup_ADuCRF101.o) init:always
+  Marking symbol UnUsed_Handler                          (58 startup_ADuCRF101.o)
+    Marking fragment #642 .text (8 startup_ADuCRF101.o) init:always
+*** Marking optional init routines ***
+Marking fragment #844 .text (6 data_init3.o(rt7M_tl.a)) {__iar_data_init3} init:{__iar_data_init3}
+Marking fragment #854 .text (8 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3} init:{__iar_zero_init3}
+Marking fragment #863 .text (8 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3} init:{__iar_copy_init3}
+Marking fragment #872 .text (8 rle_init3.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+Marking fragment #881 .text (8 packbits_init3.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+Marking fragment #1127 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking fragment #1133 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #1133 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol SB                                 Glb  (23 bwt_init3c.o)
+    Marking fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol                                         (20 bwt_init3c.o)
+    Marking fragment #1134 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol                                         (20 bwt_init3c.o)
+    Marking fragment #1134 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol                                         (20 bwt_init3c.o)
+    Marking fragment #1134 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol                                         (20 bwt_init3c.o)
+    Marking fragment #1134 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol                                         (20 bwt_init3c.o)
+    Marking fragment #1134 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol __aeabi_memclr4                    Glb  (7 ABImemclr4.o)
+    Marking fragment #1136 .text (6 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol abort                              Glb  (11 abort.o)
+    Marking fragment #921 .text (6 abort.o(dl7M_tln.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #921 .text (6 abort.o(dl7M_tln.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol __exit                             Glb  (6 XXexit.o)
+    Marking fragment #840 .text (6 XXexit.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #840 .text (6 XXexit.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #1136 .text (6 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol __iar_Memset4_word                 Glb  (8 ABImemset48.o)
+    Marking fragment #933 .text (6 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #933 .text (6 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #1134 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol packbitToByte                           (4 bwt_init3c.o)
+    Marking fragment #1132 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #1132 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol InStream_Read                           (3 bwt_init3c.o)
+    Marking fragment #1131 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol InStream_Read                           (3 bwt_init3c.o)
+    Marking fragment #1131 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+  Marking symbol InStream_Read                           (3 bwt_init3c.o)
+    Marking fragment #1131 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #1131 .text (8 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3} init:{__iar_bwt_init3}
+Marking from fragment #1127 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (25 lzw_init3c.o)
+    Marking fragment #1128 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol OutStream_Write                         (4 lzw_init3c.o)
+    Marking fragment #1125 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (26 lzw_init3c.o)
+    Marking fragment #1128 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol DecodeCode                              (3 lzw_init3c.o)
+    Marking fragment #1129 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol DecodeCode                              (3 lzw_init3c.o)
+    Marking fragment #1129 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol OutStream_Write                         (4 lzw_init3c.o)
+    Marking fragment #1125 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (25 lzw_init3c.o)
+    Marking fragment #1128 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #1129 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (27 lzw_init3c.o)
+    Marking fragment #1130 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (27 lzw_init3c.o)
+    Marking fragment #1130 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (28 lzw_init3c.o)
+    Marking fragment #1130 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol                                         (28 lzw_init3c.o)
+    Marking fragment #1130 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #1130 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol OutStream_Write                         (4 lzw_init3c.o)
+    Marking fragment #1125 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #1125 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol SB                                 Glb  (23 bwt_init3c.o)
+    Marking fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol abort                              Glb  (11 abort.o)
+    Marking fragment #921 .text (6 abort.o(dl7M_tln.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #921 .text (6 abort.o(dl7M_tln.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol __exit                             Glb  (6 XXexit.o)
+    Marking fragment #840 .text (6 XXexit.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #840 .text (6 XXexit.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #1128 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+  Marking symbol nGetCodeWord                            (5 lzw_init3c.o)
+    Marking fragment #1126 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #1126 .text (8 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3} init:{__iar_lzw_init3}
+Marking from fragment #881 .text (8 packbits_init3.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+  Marking symbol SB                                 Glb  (23 bwt_init3c.o)
+    Marking fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+Marking from fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_packbits_init3} init:{__iar_packbits_init3}
+Marking from fragment #872 .text (8 rle_init3.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+  Marking symbol SB                                 Glb  (23 bwt_init3c.o)
+    Marking fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+Marking from fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_rle_init3} init:{__iar_rle_init3}
+Marking from fragment #863 .text (8 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3} init:{__iar_copy_init3}
+  Marking symbol SB                                 Glb  (23 bwt_init3c.o)
+    Marking fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_copy_init3} init:{__iar_copy_init3}
+Marking from fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_copy_init3} init:{__iar_copy_init3}
+Marking from fragment #854 .text (8 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3} init:{__iar_zero_init3}
+  Marking symbol SB                                 Glb  (23 bwt_init3c.o)
+    Marking fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_zero_init3} init:{__iar_zero_init3}
+Marking from fragment #907 .rodata (7 bwt_init3c.o(rt7M_tl.a)) {__iar_zero_init3} init:{__iar_zero_init3}
+Marking from fragment #844 .text (6 data_init3.o(rt7M_tl.a)) {__iar_data_init3} init:{__iar_data_init3}
+  Marking symbol Region$$Table$$Base            Ext Glb  (13 data_init3.o)
+  Marking symbol Region$$Table$$Limit           Ext Glb  (14 data_init3.o)
+*** Marking debug sections ***
+References #5 .data (10 ADCchannels.o)
+  Marking fragment #12 .debug_info (17 ADCchannels.o)
+References #4 .bss (9 ADCchannels.o)
+  Marking fragment #13 .debug_info (18 ADCchannels.o)
+References #937 .text (8 ADCchannels.o)
+  Marking fragment #14 .debug_frame (19 ADCchannels.o)
+References #937 .text (8 ADCchannels.o)
+  Marking fragment #15 .iar.debug_line (21 ADCchannels.o)
+References #937 .text (8 ADCchannels.o)
+  Marking fragment #16 .debug_line (22 ADCchannels.o)
+References #937 .text (8 ADCchannels.o)
+  Marking fragment #17 .debug_info (23 ADCchannels.o)
+References #938 .text (8 ADCchannels.o)
+  Marking fragment #18 .debug_frame (24 ADCchannels.o)
+References #938 .text (8 ADCchannels.o)
+  Marking fragment #19 .iar.debug_line (26 ADCchannels.o)
+References #938 .text (8 ADCchannels.o)
+  Marking fragment #20 .debug_line (27 ADCchannels.o)
+References #938 .text (8 ADCchannels.o)
+  Marking fragment #21 .debug_info (28 ADCchannels.o)
+References #939 .text (8 ADCchannels.o)
+  Marking fragment #22 .debug_frame (29 ADCchannels.o)
+References #939 .text (8 ADCchannels.o)
+  Marking fragment #23 .iar.debug_line (31 ADCchannels.o)
+References #939 .text (8 ADCchannels.o)
+  Marking fragment #24 .debug_line (32 ADCchannels.o)
+References #939 .text (8 ADCchannels.o)
+  Marking fragment #25 .debug_info (33 ADCchannels.o)
+References #940 .text (8 ADCchannels.o)
+  Marking fragment #26 .debug_frame (34 ADCchannels.o)
+References #940 .text (8 ADCchannels.o)
+  Marking fragment #27 .iar.debug_line (36 ADCchannels.o)
+References #940 .text (8 ADCchannels.o)
+  Marking fragment #28 .debug_line (37 ADCchannels.o)
+References #940 .text (8 ADCchannels.o)
+  Marking fragment #29 .debug_info (38 ADCchannels.o)
+References #941 .text (8 ADCchannels.o)
+  Marking fragment #30 .debug_frame (39 ADCchannels.o)
+References #941 .text (8 ADCchannels.o)
+  Marking fragment #31 .iar.debug_line (41 ADCchannels.o)
+References #941 .text (8 ADCchannels.o)
+  Marking fragment #32 .debug_line (42 ADCchannels.o)
+References #941 .text (8 ADCchannels.o)
+  Marking fragment #33 .debug_info (43 ADCchannels.o)
+References #952 .text (8 AdcLib.o)
+  Marking fragment #58 .debug_frame (12 AdcLib.o)
+References #952 .text (8 AdcLib.o)
+  Marking fragment #59 .iar.debug_line (14 AdcLib.o)
+References #952 .text (8 AdcLib.o)
+  Marking fragment #60 .debug_line (15 AdcLib.o)
+References #952 .text (8 AdcLib.o)
+  Marking fragment #61 .debug_info (16 AdcLib.o)
+References #953 .text (8 AdcLib.o)
+  Marking fragment #62 .debug_frame (17 AdcLib.o)
+References #953 .text (8 AdcLib.o)
+  Marking fragment #63 .iar.debug_line (19 AdcLib.o)
+References #953 .text (8 AdcLib.o)
+  Marking fragment #64 .debug_line (20 AdcLib.o)
+References #953 .text (8 AdcLib.o)
+  Marking fragment #65 .debug_info (21 AdcLib.o)
+References #954 .text (8 AdcLib.o)
+  Marking fragment #66 .debug_frame (22 AdcLib.o)
+References #954 .text (8 AdcLib.o)
+  Marking fragment #67 .iar.debug_line (24 AdcLib.o)
+References #954 .text (8 AdcLib.o)
+  Marking fragment #68 .debug_line (25 AdcLib.o)
+References #954 .text (8 AdcLib.o)
+  Marking fragment #69 .debug_info (26 AdcLib.o)
+References #955 .text (8 AdcLib.o)
+  Marking fragment #70 .debug_frame (27 AdcLib.o)
+References #955 .text (8 AdcLib.o)
+  Marking fragment #71 .iar.debug_line (29 AdcLib.o)
+References #955 .text (8 AdcLib.o)
+  Marking fragment #72 .debug_line (30 AdcLib.o)
+References #955 .text (8 AdcLib.o)
+  Marking fragment #73 .debug_info (31 AdcLib.o)
+References #956 .text (8 AdcLib.o)
+  Marking fragment #74 .debug_frame (32 AdcLib.o)
+References #956 .text (8 AdcLib.o)
+  Marking fragment #75 .iar.debug_line (34 AdcLib.o)
+References #956 .text (8 AdcLib.o)
+  Marking fragment #76 .debug_line (35 AdcLib.o)
+References #956 .text (8 AdcLib.o)
+  Marking fragment #77 .debug_info (36 AdcLib.o)
+References #957 .text (8 AdcLib.o)
+  Marking fragment #78 .debug_frame (37 AdcLib.o)
+References #957 .text (8 AdcLib.o)
+  Marking fragment #79 .iar.debug_line (39 AdcLib.o)
+References #957 .text (8 AdcLib.o)
+  Marking fragment #80 .debug_line (40 AdcLib.o)
+References #957 .text (8 AdcLib.o)
+  Marking fragment #81 .debug_info (41 AdcLib.o)
+References #960 .text (8 AdcLib.o)
+  Marking fragment #90 .debug_frame (52 AdcLib.o)
+References #960 .text (8 AdcLib.o)
+  Marking fragment #91 .iar.debug_line (54 AdcLib.o)
+References #960 .text (8 AdcLib.o)
+  Marking fragment #92 .debug_line (55 AdcLib.o)
+References #960 .text (8 AdcLib.o)
+  Marking fragment #93 .debug_info (56 AdcLib.o)
+References #987 .text (8 GptLib.o)
+  Marking fragment #238 .debug_frame (12 GptLib.o)
+References #987 .text (8 GptLib.o)
+  Marking fragment #239 .iar.debug_line (14 GptLib.o)
+References #987 .text (8 GptLib.o)
+  Marking fragment #240 .debug_line (15 GptLib.o)
+References #987 .text (8 GptLib.o)
+  Marking fragment #241 .debug_info (16 GptLib.o)
+References #988 .text (8 GptLib.o)
+  Marking fragment #242 .debug_frame (17 GptLib.o)
+References #988 .text (8 GptLib.o)
+  Marking fragment #243 .iar.debug_line (19 GptLib.o)
+References #988 .text (8 GptLib.o)
+  Marking fragment #244 .debug_line (20 GptLib.o)
+References #988 .text (8 GptLib.o)
+  Marking fragment #245 .debug_info (21 GptLib.o)
+References #992 .text (8 GptLib.o)
+  Marking fragment #258 .debug_frame (37 GptLib.o)
+References #992 .text (8 GptLib.o)
+  Marking fragment #259 .iar.debug_line (39 GptLib.o)
+References #992 .text (8 GptLib.o)
+  Marking fragment #260 .debug_line (40 GptLib.o)
+References #992 .text (8 GptLib.o)
+  Marking fragment #261 .debug_info (41 GptLib.o)
+References #993 .text (8 GptLib.o)
+  Marking fragment #262 .debug_frame (42 GptLib.o)
+References #993 .text (8 GptLib.o)
+  Marking fragment #263 .iar.debug_line (44 GptLib.o)
+References #993 .text (8 GptLib.o)
+  Marking fragment #264 .debug_line (45 GptLib.o)
+References #993 .text (8 GptLib.o)
+  Marking fragment #265 .debug_info (46 GptLib.o)
+References #1014 .text (8 Retarget.o)
+  Marking fragment #362 .debug_frame (17 Retarget.o)
+References #1014 .text (8 Retarget.o)
+  Marking fragment #363 .iar.debug_line (19 Retarget.o)
+References #1014 .text (8 Retarget.o)
+  Marking fragment #364 .debug_line (20 Retarget.o)
+References #1014 .text (8 Retarget.o)
+  Marking fragment #365 .debug_info (21 Retarget.o)
+References #1030 .text (8 UrtLib.o)
+  Marking fragment #478 .debug_frame (12 UrtLib.o)
+References #1030 .text (8 UrtLib.o)
+  Marking fragment #479 .iar.debug_line (14 UrtLib.o)
+References #1030 .text (8 UrtLib.o)
+  Marking fragment #480 .debug_line (15 UrtLib.o)
+References #1030 .text (8 UrtLib.o)
+  Marking fragment #481 .debug_info (16 UrtLib.o)
+References #1050 .text (8 WdtLib.o)
+  Marking fragment #540 .debug_frame (17 WdtLib.o)
+References #1050 .text (8 WdtLib.o)
+  Marking fragment #541 .iar.debug_line (19 WdtLib.o)
+References #1050 .text (8 WdtLib.o)
+  Marking fragment #542 .debug_line (20 WdtLib.o)
+References #1050 .text (8 WdtLib.o)
+  Marking fragment #543 .debug_info (21 WdtLib.o)
+References #642 .text (8 startup_ADuCRF101.o)
+  Marking fragment #643 .debug_line (9 startup_ADuCRF101.o)
+References #642 .text (8 startup_ADuCRF101.o)
+  Marking fragment #646 .debug_info (13 startup_ADuCRF101.o)
+References #1091 .text (8 uart.o)
+  Marking fragment #671 .debug_frame (32 uart.o)
+References #1091 .text (8 uart.o)
+  Marking fragment #672 .iar.debug_line (34 uart.o)
+References #1091 .text (8 uart.o)
+  Marking fragment #673 .debug_line (35 uart.o)
+References #1091 .text (8 uart.o)
+  Marking fragment #674 .debug_info (36 uart.o)
+References #693 .text (6 printf.o(dl7M_tln.a))
+  Marking fragment #697 .debug_frame (10 printf.o(dl7M_tln.a))
+References #1101 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking fragment #710 .debug_frame (10 xprintffull.o(dl7M_tln.a))
+References #1102 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking fragment #711 .debug_frame (12 xprintffull.o(dl7M_tln.a))
+References #1103 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking fragment #712 .debug_frame (14 xprintffull.o(dl7M_tln.a))
+References #1108 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking fragment #713 .debug_frame (16 xprintffull.o(dl7M_tln.a))
+References #1109 .text (6 xprintffull.o(dl7M_tln.a))
+  Marking fragment #714 .debug_frame (18 xprintffull.o(dl7M_tln.a))
+References #717 .text (6 xprout.o(dl7M_tln.a))
+  Marking fragment #721 .debug_frame (10 xprout.o(dl7M_tln.a))
+References #724 .text (6 low_level_init.o(dl7M_tln.a))
+  Marking fragment #726 .debug_frame (8 low_level_init.o(dl7M_tln.a))
+References #729 .text (6 exit.o(dl7M_tln.a))
+  Marking fragment #733 .debug_frame (10 exit.o(dl7M_tln.a))
+References #736 .text (6 DblCmpLe.o(m7M_tl.a))
+  Marking fragment #737 .debug_frame (7 DblCmpLe.o(m7M_tl.a))
+References #741 .text (6 DblCmpGe.o(m7M_tl.a))
+  Marking fragment #742 .debug_frame (7 DblCmpGe.o(m7M_tl.a))
+References #1116 .text (6 DblToI32.o(m7M_tl.a))
+  Marking fragment #747 .debug_frame (7 DblToI32.o(m7M_tl.a))
+References #1117 .text (6 DblToI32.o(m7M_tl.a))
+  Marking fragment #748 .debug_frame (9 DblToI32.o(m7M_tl.a))
+References #752 .text (6 DblDiv.o(m7M_tl.a))
+  Marking fragment #753 .debug_frame (7 DblDiv.o(m7M_tl.a))
+References #757 .text (6 DblMul.o(m7M_tl.a))
+  Marking fragment #758 .debug_frame (7 DblMul.o(m7M_tl.a))
+References #762 .text (6 DblSub.o(m7M_tl.a))
+  Marking fragment #763 .debug_frame (7 DblSub.o(m7M_tl.a))
+References #1118 .text (6 I32ToDbl.o(m7M_tl.a))
+  Marking fragment #768 .debug_frame (7 I32ToDbl.o(m7M_tl.a))
+References #1119 .text (6 I32ToDbl.o(m7M_tl.a))
+  Marking fragment #769 .debug_frame (9 I32ToDbl.o(m7M_tl.a))
+References #773 .text (6 ABImemcpy.o(rt7M_tl.a))
+  Marking fragment #774 .debug_frame (7 ABImemcpy.o(rt7M_tl.a))
+References #778 .text (6 I64DivMod.o(rt7M_tl.a))
+  Marking fragment #779 .debug_frame (7 I64DivMod.o(rt7M_tl.a))
+References #783 .text (6 xdnorm.o(m7M_tl.a))
+  Marking fragment #787 .debug_frame (10 xdnorm.o(m7M_tl.a))
+References #790 .text (6 xdscale.o(m7M_tl.a))
+  Marking fragment #794 .debug_frame (10 xdscale.o(m7M_tl.a))
+References #797 .text (6 memchr.o(rt7M_tl.a))
+  Marking fragment #798 .debug_frame (7 memchr.o(rt7M_tl.a))
+References #802 .text (6 strchr.o(rt7M_tl.a))
+  Marking fragment #803 .debug_frame (7 strchr.o(rt7M_tl.a))
+References #807 .text (6 div.o(dl7M_tln.a))
+  Marking fragment #811 .debug_frame (10 div.o(dl7M_tln.a))
+References #814 .text (6 strlen.o(rt7M_tl.a))
+  Marking fragment #815 .debug_frame (7 strlen.o(rt7M_tl.a))
+References #819 .text (6 putchar.o(dl7M_tln.a))
+  Marking fragment #823 .debug_frame (10 putchar.o(dl7M_tln.a))
+References #830 .text (6 DblAdd.o(m7M_tl.a))
+  Marking fragment #831 .debug_frame (7 DblAdd.o(m7M_tl.a))
+References #835 .text (6 I64DivZer.o(rt7M_tl.a))
+  Marking fragment #836 .debug_frame (7 I64DivZer.o(rt7M_tl.a))
+References #844 .text (6 data_init3.o(rt7M_tl.a))
+  Marking fragment #849 .debug_frame (11 data_init3.o(rt7M_tl.a)) {__iar_data_init3}
+References #854 .text (8 zero_init3.o(rt7M_tl.a))
+  Marking fragment #858 .debug_frame (12 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3}
+References #863 .text (8 copy_init3.o(rt7M_tl.a))
+  Marking fragment #867 .debug_frame (12 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3}
+References #872 .text (8 rle_init3.o(rt7M_tl.a))
+  Marking fragment #876 .debug_frame (12 rle_init3.o(rt7M_tl.a)) {__iar_rle_init3}
+References #881 .text (8 packbits_init3.o(rt7M_tl.a))
+  Marking fragment #885 .debug_frame (12 packbits_init3.o(rt7M_tl.a)) {__iar_packbits_init3}
+References #1125 .text (8 lzw_init3c.o(rt7M_tl.a))
+  Marking fragment #894 .debug_frame (12 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #1126 .text (8 lzw_init3c.o(rt7M_tl.a))
+  Marking fragment #895 .debug_frame (14 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #1127 .text (8 lzw_init3c.o(rt7M_tl.a))
+  Marking fragment #896 .debug_frame (16 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #1128 .text (8 lzw_init3c.o(rt7M_tl.a))
+  Marking fragment #899 .debug_frame (21 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #1129 .text (8 lzw_init3c.o(rt7M_tl.a))
+  Marking fragment #900 .debug_frame (23 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #1130 .text (8 lzw_init3c.o(rt7M_tl.a))
+  Marking fragment #901 .debug_frame (25 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #1128 .text (8 lzw_init3c.o(rt7M_tl.a))
+  Marking fragment #903 .iar.debug_frame (28 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #1130 .text (8 lzw_init3c.o(rt7M_tl.a))
+  Marking fragment #904 .iar.debug_frame (30 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+References #1131 .text (8 bwt_init3c.o(rt7M_tl.a))
+  Marking fragment #912 .debug_frame (12 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #1132 .text (8 bwt_init3c.o(rt7M_tl.a))
+  Marking fragment #913 .debug_frame (14 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #1133 .text (8 bwt_init3c.o(rt7M_tl.a))
+  Marking fragment #914 .debug_frame (16 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #1134 .text (8 bwt_init3c.o(rt7M_tl.a))
+  Marking fragment #917 .debug_frame (21 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #1134 .text (8 bwt_init3c.o(rt7M_tl.a))
+  Marking fragment #919 .iar.debug_frame (24 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #921 .text (6 abort.o(dl7M_tln.a))
+  Marking fragment #925 .debug_frame (10 abort.o(dl7M_tln.a)) {__iar_lzw_init3 __iar_bwt_init3}
+References #1136 .text (6 ABImemclr4.o(rt7M_tl.a))
+  Marking fragment #929 .debug_frame (7 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3}
+References #933 .text (6 ABImemset48.o(rt7M_tl.a))
+  Marking fragment #934 .debug_frame (7 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3}
+Marking from fragment #934 .debug_frame (7 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame7                           (5 ABImemset48.o)
+    Marking fragment #934 .debug_frame (7 ABImemset48.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text6                                  (3 ABImemset48.o)
+Marking from fragment #929 .debug_frame (7 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame7                           (5 ABImemclr4.o)
+    Marking fragment #929 .debug_frame (7 ABImemclr4.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text6                                  (3 ABImemclr4.o)
+Marking from fragment #925 .debug_frame (10 abort.o(dl7M_tln.a)) {__iar_lzw_init3 __iar_bwt_init3}
+  Marking symbol .debug_frame10                          (4 abort.o)
+    Marking fragment #925 .debug_frame (10 abort.o(dl7M_tln.a)) {__iar_lzw_init3 __iar_bwt_init3}
+  Marking symbol .text6                                  (3 abort.o)
+Marking from fragment #919 .iar.debug_frame (24 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text_6                                 (12 bwt_init3c.o)
+  Marking symbol .iar.debug_frame18                      (13 bwt_init3c.o)
+    Marking fragment #915 .iar.debug_frame (18 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text_5                                 (10 bwt_init3c.o)
+Marking from fragment #915 .iar.debug_frame (18 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .iar.debug_frame19                      (14 bwt_init3c.o)
+    Marking fragment #916 .iar.debug_frame (19 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+Marking from fragment #916 .iar.debug_frame (19 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+Marking from fragment #917 .debug_frame (21 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame21                          (15 bwt_init3c.o)
+    Marking fragment #917 .debug_frame (21 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text_6                                 (12 bwt_init3c.o)
+Marking from fragment #914 .debug_frame (16 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame16                          (11 bwt_init3c.o)
+    Marking fragment #914 .debug_frame (16 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text_5                                 (10 bwt_init3c.o)
+Marking from fragment #913 .debug_frame (14 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame14                          (9 bwt_init3c.o)
+    Marking fragment #913 .debug_frame (14 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text_4                                 (8 bwt_init3c.o)
+Marking from fragment #912 .debug_frame (12 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .debug_frame12                          (6 bwt_init3c.o)
+    Marking fragment #912 .debug_frame (12 bwt_init3c.o(rt7M_tl.a)) {__iar_bwt_init3}
+  Marking symbol .text8                                  (5 bwt_init3c.o)
+Marking from fragment #904 .iar.debug_frame (30 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_8                                 (19 lzw_init3c.o)
+  Marking symbol .iar.debug_frame18                      (14 lzw_init3c.o)
+    Marking fragment #897 .iar.debug_frame (18 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_7                                 (17 lzw_init3c.o)
+Marking from fragment #897 .iar.debug_frame (18 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .iar.debug_frame19                      (15 lzw_init3c.o)
+    Marking fragment #898 .iar.debug_frame (19 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+Marking from fragment #898 .iar.debug_frame (19 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+Marking from fragment #903 .iar.debug_frame (28 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_6                                 (13 lzw_init3c.o)
+  Marking symbol .iar.debug_frame18                      (14 lzw_init3c.o)
+    Marking fragment #897 .iar.debug_frame (18 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_5                                 (11 lzw_init3c.o)
+Marking from fragment #901 .debug_frame (25 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame25                          (20 lzw_init3c.o)
+    Marking fragment #901 .debug_frame (25 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_8                                 (19 lzw_init3c.o)
+Marking from fragment #900 .debug_frame (23 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame23                          (18 lzw_init3c.o)
+    Marking fragment #900 .debug_frame (23 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_7                                 (17 lzw_init3c.o)
+Marking from fragment #899 .debug_frame (21 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame21                          (16 lzw_init3c.o)
+    Marking fragment #899 .debug_frame (21 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_6                                 (13 lzw_init3c.o)
+Marking from fragment #896 .debug_frame (16 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame16                          (12 lzw_init3c.o)
+    Marking fragment #896 .debug_frame (16 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_5                                 (11 lzw_init3c.o)
+Marking from fragment #895 .debug_frame (14 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame14                          (10 lzw_init3c.o)
+    Marking fragment #895 .debug_frame (14 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text_4                                 (9 lzw_init3c.o)
+Marking from fragment #894 .debug_frame (12 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .debug_frame12                          (7 lzw_init3c.o)
+    Marking fragment #894 .debug_frame (12 lzw_init3c.o(rt7M_tl.a)) {__iar_lzw_init3}
+  Marking symbol .text8                                  (6 lzw_init3c.o)
+Marking from fragment #885 .debug_frame (12 packbits_init3.o(rt7M_tl.a)) {__iar_packbits_init3}
+  Marking symbol .debug_frame12                          (4 packbits_init3.o)
+    Marking fragment #885 .debug_frame (12 packbits_init3.o(rt7M_tl.a)) {__iar_packbits_init3}
+  Marking symbol .text8                                  (3 packbits_init3.o)
+Marking from fragment #876 .debug_frame (12 rle_init3.o(rt7M_tl.a)) {__iar_rle_init3}
+  Marking symbol .debug_frame12                          (4 rle_init3.o)
+    Marking fragment #876 .debug_frame (12 rle_init3.o(rt7M_tl.a)) {__iar_rle_init3}
+  Marking symbol .text8                                  (3 rle_init3.o)
+Marking from fragment #867 .debug_frame (12 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3}
+  Marking symbol .debug_frame12                          (4 copy_init3.o)
+    Marking fragment #867 .debug_frame (12 copy_init3.o(rt7M_tl.a)) {__iar_copy_init3}
+  Marking symbol .text8                                  (3 copy_init3.o)
+Marking from fragment #858 .debug_frame (12 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3}
+  Marking symbol .debug_frame12                          (4 zero_init3.o)
+    Marking fragment #858 .debug_frame (12 zero_init3.o(rt7M_tl.a)) {__iar_zero_init3}
+  Marking symbol .text8                                  (3 zero_init3.o)
+Marking from fragment #849 .debug_frame (11 data_init3.o(rt7M_tl.a)) {__iar_data_init3}
+  Marking symbol .debug_frame11                          (4 data_init3.o)
+    Marking fragment #849 .debug_frame (11 data_init3.o(rt7M_tl.a)) {__iar_data_init3}
+  Marking symbol .text6                                  (3 data_init3.o)
+Marking from fragment #836 .debug_frame (7 I64DivZer.o(rt7M_tl.a))
+  Marking symbol .debug_frame7                           (5 I64DivZer.o)
+    Marking fragment #836 .debug_frame (7 I64DivZer.o(rt7M_tl.a))
+  Marking symbol .text6                                  (3 I64DivZer.o)
+Marking from fragment #831 .debug_frame (7 DblAdd.o(m7M_tl.a))
+  Marking symbol .debug_frame7                           (5 DblAdd.o)
+    Marking fragment #831 .debug_frame (7 DblAdd.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 DblAdd.o)
+Marking from fragment #823 .debug_frame (10 putchar.o(dl7M_tln.a))
+  Marking symbol .debug_frame10                          (4 putchar.o)
+    Marking fragment #823 .debug_frame (10 putchar.o(dl7M_tln.a))
+  Marking symbol .text6                                  (3 putchar.o)
+Marking from fragment #815 .debug_frame (7 strlen.o(rt7M_tl.a))
+  Marking symbol .debug_frame7                           (5 strlen.o)
+    Marking fragment #815 .debug_frame (7 strlen.o(rt7M_tl.a))
+  Marking symbol .text6                                  (3 strlen.o)
+Marking from fragment #811 .debug_frame (10 div.o(dl7M_tln.a))
+  Marking symbol .debug_frame10                          (4 div.o)
+    Marking fragment #811 .debug_frame (10 div.o(dl7M_tln.a))
+  Marking symbol .text6                                  (3 div.o)
+Marking from fragment #803 .debug_frame (7 strchr.o(rt7M_tl.a))
+  Marking symbol .debug_frame7                           (5 strchr.o)
+    Marking fragment #803 .debug_frame (7 strchr.o(rt7M_tl.a))
+  Marking symbol .text6                                  (3 strchr.o)
+Marking from fragment #798 .debug_frame (7 memchr.o(rt7M_tl.a))
+  Marking symbol .debug_frame7                           (5 memchr.o)
+    Marking fragment #798 .debug_frame (7 memchr.o(rt7M_tl.a))
+  Marking symbol .text6                                  (3 memchr.o)
+Marking from fragment #794 .debug_frame (10 xdscale.o(m7M_tl.a))
+  Marking symbol .debug_frame10                          (4 xdscale.o)
+    Marking fragment #794 .debug_frame (10 xdscale.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 xdscale.o)
+Marking from fragment #787 .debug_frame (10 xdnorm.o(m7M_tl.a))
+  Marking symbol .debug_frame10                          (4 xdnorm.o)
+    Marking fragment #787 .debug_frame (10 xdnorm.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 xdnorm.o)
+Marking from fragment #779 .debug_frame (7 I64DivMod.o(rt7M_tl.a))
+  Marking symbol .debug_frame7                           (5 I64DivMod.o)
+    Marking fragment #779 .debug_frame (7 I64DivMod.o(rt7M_tl.a))
+  Marking symbol .text6                                  (3 I64DivMod.o)
+Marking from fragment #774 .debug_frame (7 ABImemcpy.o(rt7M_tl.a))
+  Marking symbol .debug_frame7                           (5 ABImemcpy.o)
+    Marking fragment #774 .debug_frame (7 ABImemcpy.o(rt7M_tl.a))
+  Marking symbol .text6                                  (3 ABImemcpy.o)
+Marking from fragment #769 .debug_frame (9 I32ToDbl.o(m7M_tl.a))
+  Marking symbol .debug_frame9                           (7 I32ToDbl.o)
+    Marking fragment #769 .debug_frame (9 I32ToDbl.o(m7M_tl.a))
+  Marking symbol .text_1                                 (6 I32ToDbl.o)
+Marking from fragment #768 .debug_frame (7 I32ToDbl.o(m7M_tl.a))
+  Marking symbol .debug_frame7                           (5 I32ToDbl.o)
+    Marking fragment #768 .debug_frame (7 I32ToDbl.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 I32ToDbl.o)
+Marking from fragment #763 .debug_frame (7 DblSub.o(m7M_tl.a))
+  Marking symbol .debug_frame7                           (5 DblSub.o)
+    Marking fragment #763 .debug_frame (7 DblSub.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 DblSub.o)
+Marking from fragment #758 .debug_frame (7 DblMul.o(m7M_tl.a))
+  Marking symbol .debug_frame7                           (5 DblMul.o)
+    Marking fragment #758 .debug_frame (7 DblMul.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 DblMul.o)
+Marking from fragment #753 .debug_frame (7 DblDiv.o(m7M_tl.a))
+  Marking symbol .debug_frame7                           (5 DblDiv.o)
+    Marking fragment #753 .debug_frame (7 DblDiv.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 DblDiv.o)
+Marking from fragment #748 .debug_frame (9 DblToI32.o(m7M_tl.a))
+  Marking symbol .debug_frame9                           (7 DblToI32.o)
+    Marking fragment #748 .debug_frame (9 DblToI32.o(m7M_tl.a))
+  Marking symbol .text_1                                 (6 DblToI32.o)
+Marking from fragment #747 .debug_frame (7 DblToI32.o(m7M_tl.a))
+  Marking symbol .debug_frame7                           (5 DblToI32.o)
+    Marking fragment #747 .debug_frame (7 DblToI32.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 DblToI32.o)
+Marking from fragment #742 .debug_frame (7 DblCmpGe.o(m7M_tl.a))
+  Marking symbol .debug_frame7                           (5 DblCmpGe.o)
+    Marking fragment #742 .debug_frame (7 DblCmpGe.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 DblCmpGe.o)
+Marking from fragment #737 .debug_frame (7 DblCmpLe.o(m7M_tl.a))
+  Marking symbol .debug_frame7                           (5 DblCmpLe.o)
+    Marking fragment #737 .debug_frame (7 DblCmpLe.o(m7M_tl.a))
+  Marking symbol .text6                                  (3 DblCmpLe.o)
+Marking from fragment #733 .debug_frame (10 exit.o(dl7M_tln.a))
+  Marking symbol .debug_frame10                          (4 exit.o)
+    Marking fragment #733 .debug_frame (10 exit.o(dl7M_tln.a))
+  Marking symbol .text6                                  (3 exit.o)
+Marking from fragment #726 .debug_frame (8 low_level_init.o(dl7M_tln.a))
+  Marking symbol .debug_frame8                           (4 low_level_init.o)
+    Marking fragment #726 .debug_frame (8 low_level_init.o(dl7M_tln.a))
+  Marking symbol .text6                                  (3 low_level_init.o)
+Marking from fragment #721 .debug_frame (10 xprout.o(dl7M_tln.a))
+  Marking symbol .debug_frame10                          (4 xprout.o)
+    Marking fragment #721 .debug_frame (10 xprout.o(dl7M_tln.a))
+  Marking symbol .text6                                  (3 xprout.o)
+Marking from fragment #714 .debug_frame (18 xprintffull.o(dl7M_tln.a))
+  Marking symbol .debug_frame18                          (29 xprintffull.o)
+    Marking fragment #714 .debug_frame (18 xprintffull.o(dl7M_tln.a))
+  Marking symbol .text_10                                (28 xprintffull.o)
+Marking from fragment #713 .debug_frame (16 xprintffull.o(dl7M_tln.a))
+  Marking symbol .debug_frame16                          (26 xprintffull.o)
+    Marking fragment #713 .debug_frame (16 xprintffull.o(dl7M_tln.a))
+  Marking symbol .text_9                                 (25 xprintffull.o)
+Marking from fragment #712 .debug_frame (14 xprintffull.o(dl7M_tln.a))
+  Marking symbol .debug_frame14                          (19 xprintffull.o)
+    Marking fragment #712 .debug_frame (14 xprintffull.o(dl7M_tln.a))
+  Marking symbol .text_4                                 (18 xprintffull.o)
+Marking from fragment #711 .debug_frame (12 xprintffull.o(dl7M_tln.a))
+  Marking symbol .debug_frame12                          (17 xprintffull.o)
+    Marking fragment #711 .debug_frame (12 xprintffull.o(dl7M_tln.a))
+  Marking symbol .text_3                                 (16 xprintffull.o)
+Marking from fragment #710 .debug_frame (10 xprintffull.o(dl7M_tln.a))
+  Marking symbol .debug_frame10                          (14 xprintffull.o)
+    Marking fragment #710 .debug_frame (10 xprintffull.o(dl7M_tln.a))
+  Marking symbol .text6                                  (13 xprintffull.o)
+Marking from fragment #697 .debug_frame (10 printf.o(dl7M_tln.a))
+  Marking symbol .debug_frame10                          (4 printf.o)
+    Marking fragment #697 .debug_frame (10 printf.o(dl7M_tln.a))
+  Marking symbol .text6                                  (3 printf.o)
+Marking from fragment #674 .debug_info (36 uart.o)
+  Marking symbol .debug_abbrev43                         (35 uart.o)
+    Marking fragment #681 .debug_abbrev (43 uart.o)
+  Marking symbol .text_6                                 (28 uart.o)
+  Marking symbol .text_6                                 (28 uart.o)
+  Marking symbol .debug_line35                           (54 uart.o)
+    Marking fragment #673 .debug_line (35 uart.o)
+  Marking symbol .iar.debug_line34                       (55 uart.o)
+    Marking fragment #672 .iar.debug_line (34 uart.o)
+  Marking symbol .debug_info7                            (36 uart.o)
+    Marking fragment #650 .debug_info (7 uart.o)
+  Marking symbol .debug_loc42                            (53 uart.o)
+    Marking fragment #680 .debug_loc (42 uart.o)
+  Marking symbol .text_6                                 (28 uart.o)
+  Marking symbol .text_6                                 (28 uart.o)
+  Marking symbol .debug_info7                            (36 uart.o)
+    Marking fragment #650 .debug_info (7 uart.o)
+  Marking symbol .debug_loc42                            (53 uart.o)
+    Marking fragment #680 .debug_loc (42 uart.o)
+Marking from fragment #680 .debug_loc (42 uart.o)
+Marking from fragment #650 .debug_info (7 uart.o)
+  Marking symbol .debug_abbrev43                         (35 uart.o)
+    Marking fragment #681 .debug_abbrev (43 uart.o)
+  Marking symbol .debug_line6                            (57 uart.o)
+    Marking fragment #649 .debug_line (6 uart.o)
+  Marking symbol .debug_macinfo59                        (58 uart.o)
+    Marking fragment #687 .debug_macinfo (59 uart.o)
+Marking from fragment #687 .debug_macinfo (59 uart.o)
+Marking from fragment #649 .debug_line (6 uart.o)
+Marking from fragment #681 .debug_abbrev (43 uart.o)
+Marking from fragment #673 .debug_line (35 uart.o)
+  Marking symbol .text_6                                 (28 uart.o)
+Marking from fragment #672 .iar.debug_line (34 uart.o)
+  Marking symbol .text_6                                 (28 uart.o)
+  Marking symbol .debug_info36                           (56 uart.o)
+    Marking fragment #674 .debug_info (36 uart.o)
+Marking from fragment #671 .debug_frame (32 uart.o)
+  Marking symbol .debug_frame32                          (29 uart.o)
+    Marking fragment #671 .debug_frame (32 uart.o)
+  Marking symbol .text_6                                 (28 uart.o)
+Marking from fragment #646 .debug_info (13 startup_ADuCRF101.o)
+  Marking symbol .debug_abbrev14                         (8 startup_ADuCRF101.o)
+    Marking fragment #647 .debug_abbrev (14 startup_ADuCRF101.o)
+  Marking symbol .text8                                  (6 startup_ADuCRF101.o)
+  Marking symbol .text8                                  (6 startup_ADuCRF101.o)
+  Marking symbol .debug_line9                            (9 startup_ADuCRF101.o)
+    Marking fragment #643 .debug_line (9 startup_ADuCRF101.o)
+Marking from fragment #647 .debug_abbrev (14 startup_ADuCRF101.o)
+Marking from fragment #643 .debug_line (9 startup_ADuCRF101.o)
+  Marking symbol .text8                                  (6 startup_ADuCRF101.o)
+Marking from fragment #543 .debug_info (21 WdtLib.o)
+  Marking symbol .debug_abbrev49                         (29 WdtLib.o)
+    Marking fragment #567 .debug_abbrev (49 WdtLib.o)
+  Marking symbol .text_3                                 (14 WdtLib.o)
+  Marking symbol .text_3                                 (14 WdtLib.o)
+  Marking symbol .debug_line20                           (36 WdtLib.o)
+    Marking fragment #542 .debug_line (20 WdtLib.o)
+  Marking symbol .iar.debug_line19                       (37 WdtLib.o)
+    Marking fragment #541 .iar.debug_line (19 WdtLib.o)
+  Marking symbol .debug_info7                            (30 WdtLib.o)
+    Marking fragment #531 .debug_info (7 WdtLib.o)
+  Marking symbol .debug_info7                            (30 WdtLib.o)
+    Marking fragment #531 .debug_info (7 WdtLib.o)
+  Marking symbol .debug_loc44                            (35 WdtLib.o)
+    Marking fragment #562 .debug_loc (44 WdtLib.o)
+  Marking symbol .text_3                                 (14 WdtLib.o)
+  Marking symbol .text_3                                 (14 WdtLib.o)
+  Marking symbol .debug_info7                            (30 WdtLib.o)
+    Marking fragment #531 .debug_info (7 WdtLib.o)
+  Marking symbol .debug_loc44                            (35 WdtLib.o)
+    Marking fragment #562 .debug_loc (44 WdtLib.o)
+Marking from fragment #562 .debug_loc (44 WdtLib.o)
+Marking from fragment #531 .debug_info (7 WdtLib.o)
+  Marking symbol .debug_abbrev49                         (29 WdtLib.o)
+    Marking fragment #567 .debug_abbrev (49 WdtLib.o)
+  Marking symbol .debug_line6                            (55 WdtLib.o)
+    Marking fragment #530 .debug_line (6 WdtLib.o)
+  Marking symbol .debug_macinfo68                        (56 WdtLib.o)
+    Marking fragment #574 .debug_macinfo (68 WdtLib.o)
+Marking from fragment #574 .debug_macinfo (68 WdtLib.o)
+Marking from fragment #530 .debug_line (6 WdtLib.o)
+Marking from fragment #567 .debug_abbrev (49 WdtLib.o)
+Marking from fragment #542 .debug_line (20 WdtLib.o)
+  Marking symbol .text_3                                 (14 WdtLib.o)
+Marking from fragment #541 .iar.debug_line (19 WdtLib.o)
+  Marking symbol .text_3                                 (14 WdtLib.o)
+  Marking symbol .debug_info21                           (38 WdtLib.o)
+    Marking fragment #543 .debug_info (21 WdtLib.o)
+Marking from fragment #540 .debug_frame (17 WdtLib.o)
+  Marking symbol .debug_frame17                          (15 WdtLib.o)
+    Marking fragment #540 .debug_frame (17 WdtLib.o)
+  Marking symbol .text_3                                 (14 WdtLib.o)
+Marking from fragment #481 .debug_info (16 UrtLib.o)
+  Marking symbol .debug_abbrev61                         (39 UrtLib.o)
+    Marking fragment #519 .debug_abbrev (61 UrtLib.o)
+  Marking symbol .text8                                  (17 UrtLib.o)
+  Marking symbol .text8                                  (17 UrtLib.o)
+  Marking symbol .debug_line15                           (42 UrtLib.o)
+    Marking fragment #480 .debug_line (15 UrtLib.o)
+  Marking symbol .iar.debug_line14                       (43 UrtLib.o)
+    Marking fragment #479 .iar.debug_line (14 UrtLib.o)
+  Marking symbol .debug_info7                            (40 UrtLib.o)
+    Marking fragment #473 .debug_info (7 UrtLib.o)
+  Marking symbol .debug_info7                            (40 UrtLib.o)
+    Marking fragment #473 .debug_info (7 UrtLib.o)
+  Marking symbol .debug_loc53                            (41 UrtLib.o)
+    Marking fragment #511 .debug_loc (53 UrtLib.o)
+  Marking symbol .text8                                  (17 UrtLib.o)
+  Marking symbol .text8                                  (17 UrtLib.o)
+  Marking symbol .debug_info7                            (40 UrtLib.o)
+    Marking fragment #473 .debug_info (7 UrtLib.o)
+  Marking symbol .debug_info7                            (40 UrtLib.o)
+    Marking fragment #473 .debug_info (7 UrtLib.o)
+  Marking symbol .debug_loc53                            (41 UrtLib.o)
+    Marking fragment #511 .debug_loc (53 UrtLib.o)
+  Marking symbol .debug_info7                            (40 UrtLib.o)
+    Marking fragment #473 .debug_info (7 UrtLib.o)
+  Marking symbol .debug_loc53                            (41 UrtLib.o)
+    Marking fragment #511 .debug_loc (53 UrtLib.o)
+  Marking symbol .debug_info7                            (40 UrtLib.o)
+    Marking fragment #473 .debug_info (7 UrtLib.o)
+  Marking symbol .debug_loc53                            (41 UrtLib.o)
+    Marking fragment #511 .debug_loc (53 UrtLib.o)
+  Marking symbol .debug_info7                            (40 UrtLib.o)
+    Marking fragment #473 .debug_info (7 UrtLib.o)
+  Marking symbol .debug_loc53                            (41 UrtLib.o)
+    Marking fragment #511 .debug_loc (53 UrtLib.o)
+Marking from fragment #511 .debug_loc (53 UrtLib.o)
+Marking from fragment #473 .debug_info (7 UrtLib.o)
+  Marking symbol .debug_abbrev61                         (39 UrtLib.o)
+    Marking fragment #519 .debug_abbrev (61 UrtLib.o)
+  Marking symbol .debug_line6                            (73 UrtLib.o)
+    Marking fragment #472 .debug_line (6 UrtLib.o)
+  Marking symbol .debug_macinfo86                        (74 UrtLib.o)
+    Marking fragment #528 .debug_macinfo (86 UrtLib.o)
+Marking from fragment #528 .debug_macinfo (86 UrtLib.o)
+Marking from fragment #472 .debug_line (6 UrtLib.o)
+Marking from fragment #519 .debug_abbrev (61 UrtLib.o)
+Marking from fragment #480 .debug_line (15 UrtLib.o)
+  Marking symbol .text8                                  (17 UrtLib.o)
+Marking from fragment #479 .iar.debug_line (14 UrtLib.o)
+  Marking symbol .text8                                  (17 UrtLib.o)
+  Marking symbol .debug_info16                           (44 UrtLib.o)
+    Marking fragment #481 .debug_info (16 UrtLib.o)
+Marking from fragment #478 .debug_frame (12 UrtLib.o)
+  Marking symbol .debug_frame12                          (18 UrtLib.o)
+    Marking fragment #478 .debug_frame (12 UrtLib.o)
+  Marking symbol .text8                                  (17 UrtLib.o)
+Marking from fragment #365 .debug_info (21 Retarget.o)
+  Marking symbol .debug_abbrev25                         (21 Retarget.o)
+    Marking fragment #369 .debug_abbrev (25 Retarget.o)
+  Marking symbol .text_5                                 (14 Retarget.o)
+  Marking symbol .text_5                                 (14 Retarget.o)
+  Marking symbol .debug_line20                           (28 Retarget.o)
+    Marking fragment #364 .debug_line (20 Retarget.o)
+  Marking symbol .iar.debug_line19                       (29 Retarget.o)
+    Marking fragment #363 .iar.debug_line (19 Retarget.o)
+  Marking symbol .debug_info7                            (22 Retarget.o)
+    Marking fragment #353 .debug_info (7 Retarget.o)
+  Marking symbol .debug_info7                            (22 Retarget.o)
+    Marking fragment #353 .debug_info (7 Retarget.o)
+  Marking symbol .debug_loc24                            (27 Retarget.o)
+    Marking fragment #368 .debug_loc (24 Retarget.o)
+  Marking symbol .text_5                                 (14 Retarget.o)
+  Marking symbol .text_5                                 (14 Retarget.o)
+  Marking symbol .debug_info7                            (22 Retarget.o)
+    Marking fragment #353 .debug_info (7 Retarget.o)
+  Marking symbol .debug_info7                            (22 Retarget.o)
+    Marking fragment #353 .debug_info (7 Retarget.o)
+  Marking symbol .debug_loc24                            (27 Retarget.o)
+    Marking fragment #368 .debug_loc (24 Retarget.o)
+  Marking symbol .debug_info7                            (22 Retarget.o)
+    Marking fragment #353 .debug_info (7 Retarget.o)
+  Marking symbol .debug_loc24                            (27 Retarget.o)
+    Marking fragment #368 .debug_loc (24 Retarget.o)
+  Marking symbol .debug_info7                            (22 Retarget.o)
+    Marking fragment #353 .debug_info (7 Retarget.o)
+  Marking symbol .debug_loc24                            (27 Retarget.o)
+    Marking fragment #368 .debug_loc (24 Retarget.o)
+Marking from fragment #368 .debug_loc (24 Retarget.o)
+Marking from fragment #353 .debug_info (7 Retarget.o)
+  Marking symbol .debug_abbrev25                         (21 Retarget.o)
+    Marking fragment #369 .debug_abbrev (25 Retarget.o)
+  Marking symbol .debug_line6                            (31 Retarget.o)
+    Marking fragment #352 .debug_line (6 Retarget.o)
+  Marking symbol .debug_macinfo32                        (32 Retarget.o)
+    Marking fragment #372 .debug_macinfo (32 Retarget.o)
+Marking from fragment #372 .debug_macinfo (32 Retarget.o)
+Marking from fragment #352 .debug_line (6 Retarget.o)
+Marking from fragment #369 .debug_abbrev (25 Retarget.o)
+Marking from fragment #364 .debug_line (20 Retarget.o)
+  Marking symbol .text_5                                 (14 Retarget.o)
+Marking from fragment #363 .iar.debug_line (19 Retarget.o)
+  Marking symbol .text_5                                 (14 Retarget.o)
+  Marking symbol .debug_info21                           (30 Retarget.o)
+    Marking fragment #365 .debug_info (21 Retarget.o)
+  Marking symbol Urt_DataBytWr                      Glb  (61 uart.o)
+Marking from fragment #362 .debug_frame (17 Retarget.o)
+  Marking symbol .debug_frame17                          (15 Retarget.o)
+    Marking fragment #362 .debug_frame (17 Retarget.o)
+  Marking symbol .text_5                                 (14 Retarget.o)
+Marking from fragment #265 .debug_info (46 GptLib.o)
+  Marking symbol .debug_abbrev61                         (33 GptLib.o)
+    Marking fragment #279 .debug_abbrev (61 GptLib.o)
+  Marking symbol .text_8                                 (24 GptLib.o)
+  Marking symbol .text_8                                 (24 GptLib.o)
+  Marking symbol .debug_line45                           (60 GptLib.o)
+    Marking fragment #264 .debug_line (45 GptLib.o)
+  Marking symbol .iar.debug_line44                       (61 GptLib.o)
+    Marking fragment #263 .iar.debug_line (44 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc59                            (59 GptLib.o)
+    Marking fragment #277 .debug_loc (59 GptLib.o)
+  Marking symbol .text_8                                 (24 GptLib.o)
+  Marking symbol .text_8                                 (24 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc59                            (59 GptLib.o)
+    Marking fragment #277 .debug_loc (59 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc59                            (59 GptLib.o)
+    Marking fragment #277 .debug_loc (59 GptLib.o)
+Marking from fragment #277 .debug_loc (59 GptLib.o)
+Marking from fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_abbrev61                         (33 GptLib.o)
+    Marking fragment #279 .debug_abbrev (61 GptLib.o)
+  Marking symbol .debug_line6                            (67 GptLib.o)
+    Marking fragment #232 .debug_line (6 GptLib.o)
+  Marking symbol .debug_macinfo86                        (68 GptLib.o)
+    Marking fragment #288 .debug_macinfo (86 GptLib.o)
+Marking from fragment #288 .debug_macinfo (86 GptLib.o)
+Marking from fragment #232 .debug_line (6 GptLib.o)
+Marking from fragment #279 .debug_abbrev (61 GptLib.o)
+Marking from fragment #264 .debug_line (45 GptLib.o)
+  Marking symbol .text_8                                 (24 GptLib.o)
+Marking from fragment #263 .iar.debug_line (44 GptLib.o)
+  Marking symbol .text_8                                 (24 GptLib.o)
+  Marking symbol .debug_info46                           (62 GptLib.o)
+    Marking fragment #265 .debug_info (46 GptLib.o)
+Marking from fragment #262 .debug_frame (42 GptLib.o)
+  Marking symbol .debug_frame42                          (25 GptLib.o)
+    Marking fragment #262 .debug_frame (42 GptLib.o)
+  Marking symbol .text_8                                 (24 GptLib.o)
+Marking from fragment #261 .debug_info (41 GptLib.o)
+  Marking symbol .debug_abbrev61                         (33 GptLib.o)
+    Marking fragment #279 .debug_abbrev (61 GptLib.o)
+  Marking symbol .text_7                                 (22 GptLib.o)
+  Marking symbol .text_7                                 (22 GptLib.o)
+  Marking symbol .debug_line40                           (56 GptLib.o)
+    Marking fragment #260 .debug_line (40 GptLib.o)
+  Marking symbol .iar.debug_line39                       (57 GptLib.o)
+    Marking fragment #259 .iar.debug_line (39 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc58                            (55 GptLib.o)
+    Marking fragment #276 .debug_loc (58 GptLib.o)
+  Marking symbol .text_7                                 (22 GptLib.o)
+  Marking symbol .text_7                                 (22 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+Marking from fragment #276 .debug_loc (58 GptLib.o)
+Marking from fragment #260 .debug_line (40 GptLib.o)
+  Marking symbol .text_7                                 (22 GptLib.o)
+Marking from fragment #259 .iar.debug_line (39 GptLib.o)
+  Marking symbol .text_7                                 (22 GptLib.o)
+  Marking symbol .debug_info41                           (58 GptLib.o)
+    Marking fragment #261 .debug_info (41 GptLib.o)
+Marking from fragment #258 .debug_frame (37 GptLib.o)
+  Marking symbol .debug_frame37                          (23 GptLib.o)
+    Marking fragment #258 .debug_frame (37 GptLib.o)
+  Marking symbol .text_7                                 (22 GptLib.o)
+Marking from fragment #245 .debug_info (21 GptLib.o)
+  Marking symbol .debug_abbrev61                         (33 GptLib.o)
+    Marking fragment #279 .debug_abbrev (61 GptLib.o)
+  Marking symbol .text_3                                 (14 GptLib.o)
+  Marking symbol .text_3                                 (14 GptLib.o)
+  Marking symbol .debug_line20                           (40 GptLib.o)
+    Marking fragment #244 .debug_line (20 GptLib.o)
+  Marking symbol .iar.debug_line19                       (41 GptLib.o)
+    Marking fragment #243 .iar.debug_line (19 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc54                            (39 GptLib.o)
+    Marking fragment #272 .debug_loc (54 GptLib.o)
+  Marking symbol .text_3                                 (14 GptLib.o)
+  Marking symbol .text_3                                 (14 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc54                            (39 GptLib.o)
+    Marking fragment #272 .debug_loc (54 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc54                            (39 GptLib.o)
+    Marking fragment #272 .debug_loc (54 GptLib.o)
+Marking from fragment #272 .debug_loc (54 GptLib.o)
+Marking from fragment #244 .debug_line (20 GptLib.o)
+  Marking symbol .text_3                                 (14 GptLib.o)
+Marking from fragment #243 .iar.debug_line (19 GptLib.o)
+  Marking symbol .text_3                                 (14 GptLib.o)
+  Marking symbol .debug_info21                           (42 GptLib.o)
+    Marking fragment #245 .debug_info (21 GptLib.o)
+Marking from fragment #242 .debug_frame (17 GptLib.o)
+  Marking symbol .debug_frame17                          (15 GptLib.o)
+    Marking fragment #242 .debug_frame (17 GptLib.o)
+  Marking symbol .text_3                                 (14 GptLib.o)
+Marking from fragment #241 .debug_info (16 GptLib.o)
+  Marking symbol .debug_abbrev61                         (33 GptLib.o)
+    Marking fragment #279 .debug_abbrev (61 GptLib.o)
+  Marking symbol .text8                                  (11 GptLib.o)
+  Marking symbol .text8                                  (11 GptLib.o)
+  Marking symbol .debug_line15                           (36 GptLib.o)
+    Marking fragment #240 .debug_line (15 GptLib.o)
+  Marking symbol .iar.debug_line14                       (37 GptLib.o)
+    Marking fragment #239 .iar.debug_line (14 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc53                            (35 GptLib.o)
+    Marking fragment #271 .debug_loc (53 GptLib.o)
+  Marking symbol .text8                                  (11 GptLib.o)
+  Marking symbol .text8                                  (11 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc53                            (35 GptLib.o)
+    Marking fragment #271 .debug_loc (53 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc53                            (35 GptLib.o)
+    Marking fragment #271 .debug_loc (53 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc53                            (35 GptLib.o)
+    Marking fragment #271 .debug_loc (53 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc53                            (35 GptLib.o)
+    Marking fragment #271 .debug_loc (53 GptLib.o)
+  Marking symbol .debug_info7                            (34 GptLib.o)
+    Marking fragment #233 .debug_info (7 GptLib.o)
+  Marking symbol .debug_loc53                            (35 GptLib.o)
+    Marking fragment #271 .debug_loc (53 GptLib.o)
+Marking from fragment #271 .debug_loc (53 GptLib.o)
+Marking from fragment #240 .debug_line (15 GptLib.o)
+  Marking symbol .text8                                  (11 GptLib.o)
+Marking from fragment #239 .iar.debug_line (14 GptLib.o)
+  Marking symbol .text8                                  (11 GptLib.o)
+  Marking symbol .debug_info16                           (38 GptLib.o)
+    Marking fragment #241 .debug_info (16 GptLib.o)
+Marking from fragment #238 .debug_frame (12 GptLib.o)
+  Marking symbol .debug_frame12                          (12 GptLib.o)
+    Marking fragment #238 .debug_frame (12 GptLib.o)
+  Marking symbol .text8                                  (11 GptLib.o)
+Marking from fragment #93 .debug_info (56 AdcLib.o)
+  Marking symbol .debug_abbrev73                         (50 AdcLib.o)
+    Marking fragment #109 .debug_abbrev (73 AdcLib.o)
+  Marking symbol .text_10                                (41 AdcLib.o)
+  Marking symbol .text_10                                (41 AdcLib.o)
+  Marking symbol .debug_line55                           (85 AdcLib.o)
+    Marking fragment #92 .debug_line (55 AdcLib.o)
+  Marking symbol .iar.debug_line54                       (86 AdcLib.o)
+    Marking fragment #91 .iar.debug_line (54 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc71                            (84 AdcLib.o)
+    Marking fragment #107 .debug_loc (71 AdcLib.o)
+  Marking symbol .text_10                                (41 AdcLib.o)
+  Marking symbol .text_10                                (41 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc71                            (84 AdcLib.o)
+    Marking fragment #107 .debug_loc (71 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc71                            (84 AdcLib.o)
+    Marking fragment #107 .debug_loc (71 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc71                            (84 AdcLib.o)
+    Marking fragment #107 .debug_loc (71 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc71                            (84 AdcLib.o)
+    Marking fragment #107 .debug_loc (71 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc71                            (84 AdcLib.o)
+    Marking fragment #107 .debug_loc (71 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc71                            (84 AdcLib.o)
+    Marking fragment #107 .debug_loc (71 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc71                            (84 AdcLib.o)
+    Marking fragment #107 .debug_loc (71 AdcLib.o)
+Marking from fragment #107 .debug_loc (71 AdcLib.o)
+Marking from fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_abbrev73                         (50 AdcLib.o)
+    Marking fragment #109 .debug_abbrev (73 AdcLib.o)
+  Marking symbol .debug_line6                            (92 AdcLib.o)
+    Marking fragment #52 .debug_line (6 AdcLib.o)
+  Marking symbol .debug_macinfo104                       (93 AdcLib.o)
+    Marking fragment #120 .debug_macinfo (104 AdcLib.o)
+Marking from fragment #120 .debug_macinfo (104 AdcLib.o)
+Marking from fragment #52 .debug_line (6 AdcLib.o)
+Marking from fragment #109 .debug_abbrev (73 AdcLib.o)
+Marking from fragment #92 .debug_line (55 AdcLib.o)
+  Marking symbol .text_10                                (41 AdcLib.o)
+Marking from fragment #91 .iar.debug_line (54 AdcLib.o)
+  Marking symbol .text_10                                (41 AdcLib.o)
+  Marking symbol .debug_info56                           (87 AdcLib.o)
+    Marking fragment #93 .debug_info (56 AdcLib.o)
+Marking from fragment #90 .debug_frame (52 AdcLib.o)
+  Marking symbol .debug_frame52                          (42 AdcLib.o)
+    Marking fragment #90 .debug_frame (52 AdcLib.o)
+  Marking symbol .text_10                                (41 AdcLib.o)
+Marking from fragment #81 .debug_info (41 AdcLib.o)
+  Marking symbol .debug_abbrev73                         (50 AdcLib.o)
+    Marking fragment #109 .debug_abbrev (73 AdcLib.o)
+  Marking symbol .text_7                                 (35 AdcLib.o)
+  Marking symbol .text_7                                 (35 AdcLib.o)
+  Marking symbol .debug_line40                           (73 AdcLib.o)
+    Marking fragment #80 .debug_line (40 AdcLib.o)
+  Marking symbol .iar.debug_line39                       (74 AdcLib.o)
+    Marking fragment #79 .iar.debug_line (39 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc68                            (72 AdcLib.o)
+    Marking fragment #104 .debug_loc (68 AdcLib.o)
+  Marking symbol .text_7                                 (35 AdcLib.o)
+  Marking symbol .text_7                                 (35 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc68                            (72 AdcLib.o)
+    Marking fragment #104 .debug_loc (68 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc68                            (72 AdcLib.o)
+    Marking fragment #104 .debug_loc (68 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc68                            (72 AdcLib.o)
+    Marking fragment #104 .debug_loc (68 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc68                            (72 AdcLib.o)
+    Marking fragment #104 .debug_loc (68 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc68                            (72 AdcLib.o)
+    Marking fragment #104 .debug_loc (68 AdcLib.o)
+Marking from fragment #104 .debug_loc (68 AdcLib.o)
+Marking from fragment #80 .debug_line (40 AdcLib.o)
+  Marking symbol .text_7                                 (35 AdcLib.o)
+Marking from fragment #79 .iar.debug_line (39 AdcLib.o)
+  Marking symbol .text_7                                 (35 AdcLib.o)
+  Marking symbol .debug_info41                           (75 AdcLib.o)
+    Marking fragment #81 .debug_info (41 AdcLib.o)
+Marking from fragment #78 .debug_frame (37 AdcLib.o)
+  Marking symbol .debug_frame37                          (36 AdcLib.o)
+    Marking fragment #78 .debug_frame (37 AdcLib.o)
+  Marking symbol .text_7                                 (35 AdcLib.o)
+Marking from fragment #77 .debug_info (36 AdcLib.o)
+  Marking symbol .debug_abbrev73                         (50 AdcLib.o)
+    Marking fragment #109 .debug_abbrev (73 AdcLib.o)
+  Marking symbol .text_6                                 (33 AdcLib.o)
+  Marking symbol .text_6                                 (33 AdcLib.o)
+  Marking symbol .debug_line35                           (69 AdcLib.o)
+    Marking fragment #76 .debug_line (35 AdcLib.o)
+  Marking symbol .iar.debug_line34                       (70 AdcLib.o)
+    Marking fragment #75 .iar.debug_line (34 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc67                            (68 AdcLib.o)
+    Marking fragment #103 .debug_loc (67 AdcLib.o)
+  Marking symbol .text_6                                 (33 AdcLib.o)
+  Marking symbol .text_6                                 (33 AdcLib.o)
+Marking from fragment #103 .debug_loc (67 AdcLib.o)
+Marking from fragment #76 .debug_line (35 AdcLib.o)
+  Marking symbol .text_6                                 (33 AdcLib.o)
+Marking from fragment #75 .iar.debug_line (34 AdcLib.o)
+  Marking symbol .text_6                                 (33 AdcLib.o)
+  Marking symbol .debug_info36                           (71 AdcLib.o)
+    Marking fragment #77 .debug_info (36 AdcLib.o)
+Marking from fragment #74 .debug_frame (32 AdcLib.o)
+  Marking symbol .debug_frame32                          (34 AdcLib.o)
+    Marking fragment #74 .debug_frame (32 AdcLib.o)
+  Marking symbol .text_6                                 (33 AdcLib.o)
+Marking from fragment #73 .debug_info (31 AdcLib.o)
+  Marking symbol .debug_abbrev73                         (50 AdcLib.o)
+    Marking fragment #109 .debug_abbrev (73 AdcLib.o)
+  Marking symbol .text_5                                 (31 AdcLib.o)
+  Marking symbol .text_5                                 (31 AdcLib.o)
+  Marking symbol .debug_line30                           (65 AdcLib.o)
+    Marking fragment #72 .debug_line (30 AdcLib.o)
+  Marking symbol .iar.debug_line29                       (66 AdcLib.o)
+    Marking fragment #71 .iar.debug_line (29 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc66                            (64 AdcLib.o)
+    Marking fragment #102 .debug_loc (66 AdcLib.o)
+  Marking symbol .text_5                                 (31 AdcLib.o)
+  Marking symbol .text_5                                 (31 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc66                            (64 AdcLib.o)
+    Marking fragment #102 .debug_loc (66 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc66                            (64 AdcLib.o)
+    Marking fragment #102 .debug_loc (66 AdcLib.o)
+Marking from fragment #102 .debug_loc (66 AdcLib.o)
+Marking from fragment #72 .debug_line (30 AdcLib.o)
+  Marking symbol .text_5                                 (31 AdcLib.o)
+Marking from fragment #71 .iar.debug_line (29 AdcLib.o)
+  Marking symbol .text_5                                 (31 AdcLib.o)
+  Marking symbol .debug_info31                           (67 AdcLib.o)
+    Marking fragment #73 .debug_info (31 AdcLib.o)
+  Marking symbol .debug_info56                           (87 AdcLib.o)
+    Marking fragment #93 .debug_info (56 AdcLib.o)
+Marking from fragment #70 .debug_frame (27 AdcLib.o)
+  Marking symbol .debug_frame27                          (32 AdcLib.o)
+    Marking fragment #70 .debug_frame (27 AdcLib.o)
+  Marking symbol .text_5                                 (31 AdcLib.o)
+Marking from fragment #69 .debug_info (26 AdcLib.o)
+  Marking symbol .debug_abbrev73                         (50 AdcLib.o)
+    Marking fragment #109 .debug_abbrev (73 AdcLib.o)
+  Marking symbol .text_4                                 (29 AdcLib.o)
+  Marking symbol .text_4                                 (29 AdcLib.o)
+  Marking symbol .debug_line25                           (61 AdcLib.o)
+    Marking fragment #68 .debug_line (25 AdcLib.o)
+  Marking symbol .iar.debug_line24                       (62 AdcLib.o)
+    Marking fragment #67 .iar.debug_line (24 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc65                            (60 AdcLib.o)
+    Marking fragment #101 .debug_loc (65 AdcLib.o)
+  Marking symbol .text_4                                 (29 AdcLib.o)
+  Marking symbol .text_4                                 (29 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc65                            (60 AdcLib.o)
+    Marking fragment #101 .debug_loc (65 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc65                            (60 AdcLib.o)
+    Marking fragment #101 .debug_loc (65 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc65                            (60 AdcLib.o)
+    Marking fragment #101 .debug_loc (65 AdcLib.o)
+Marking from fragment #101 .debug_loc (65 AdcLib.o)
+Marking from fragment #68 .debug_line (25 AdcLib.o)
+  Marking symbol .text_4                                 (29 AdcLib.o)
+Marking from fragment #67 .iar.debug_line (24 AdcLib.o)
+  Marking symbol .text_4                                 (29 AdcLib.o)
+  Marking symbol .debug_info26                           (63 AdcLib.o)
+    Marking fragment #69 .debug_info (26 AdcLib.o)
+Marking from fragment #66 .debug_frame (22 AdcLib.o)
+  Marking symbol .debug_frame22                          (30 AdcLib.o)
+    Marking fragment #66 .debug_frame (22 AdcLib.o)
+  Marking symbol .text_4                                 (29 AdcLib.o)
+Marking from fragment #65 .debug_info (21 AdcLib.o)
+  Marking symbol .debug_abbrev73                         (50 AdcLib.o)
+    Marking fragment #109 .debug_abbrev (73 AdcLib.o)
+  Marking symbol .text_3                                 (27 AdcLib.o)
+  Marking symbol .text_3                                 (27 AdcLib.o)
+  Marking symbol .debug_line20                           (57 AdcLib.o)
+    Marking fragment #64 .debug_line (20 AdcLib.o)
+  Marking symbol .iar.debug_line19                       (58 AdcLib.o)
+    Marking fragment #63 .iar.debug_line (19 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc64                            (56 AdcLib.o)
+    Marking fragment #100 .debug_loc (64 AdcLib.o)
+  Marking symbol .text_3                                 (27 AdcLib.o)
+  Marking symbol .text_3                                 (27 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc64                            (56 AdcLib.o)
+    Marking fragment #100 .debug_loc (64 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc64                            (56 AdcLib.o)
+    Marking fragment #100 .debug_loc (64 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc64                            (56 AdcLib.o)
+    Marking fragment #100 .debug_loc (64 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc64                            (56 AdcLib.o)
+    Marking fragment #100 .debug_loc (64 AdcLib.o)
+Marking from fragment #100 .debug_loc (64 AdcLib.o)
+Marking from fragment #64 .debug_line (20 AdcLib.o)
+  Marking symbol .text_3                                 (27 AdcLib.o)
+Marking from fragment #63 .iar.debug_line (19 AdcLib.o)
+  Marking symbol .text_3                                 (27 AdcLib.o)
+  Marking symbol .debug_info21                           (59 AdcLib.o)
+    Marking fragment #65 .debug_info (21 AdcLib.o)
+Marking from fragment #62 .debug_frame (17 AdcLib.o)
+  Marking symbol .debug_frame17                          (28 AdcLib.o)
+    Marking fragment #62 .debug_frame (17 AdcLib.o)
+  Marking symbol .text_3                                 (27 AdcLib.o)
+Marking from fragment #61 .debug_info (16 AdcLib.o)
+  Marking symbol .debug_abbrev73                         (50 AdcLib.o)
+    Marking fragment #109 .debug_abbrev (73 AdcLib.o)
+  Marking symbol .text8                                  (24 AdcLib.o)
+  Marking symbol .text8                                  (24 AdcLib.o)
+  Marking symbol .debug_line15                           (53 AdcLib.o)
+    Marking fragment #60 .debug_line (15 AdcLib.o)
+  Marking symbol .iar.debug_line14                       (54 AdcLib.o)
+    Marking fragment #59 .iar.debug_line (14 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc63                            (52 AdcLib.o)
+    Marking fragment #99 .debug_loc (63 AdcLib.o)
+  Marking symbol .text8                                  (24 AdcLib.o)
+  Marking symbol .text8                                  (24 AdcLib.o)
+  Marking symbol .debug_info7                            (51 AdcLib.o)
+    Marking fragment #53 .debug_info (7 AdcLib.o)
+  Marking symbol .debug_loc63                            (52 AdcLib.o)
+    Marking fragment #99 .debug_loc (63 AdcLib.o)
+Marking from fragment #99 .debug_loc (63 AdcLib.o)
+Marking from fragment #60 .debug_line (15 AdcLib.o)
+  Marking symbol .text8                                  (24 AdcLib.o)
+Marking from fragment #59 .iar.debug_line (14 AdcLib.o)
+  Marking symbol .text8                                  (24 AdcLib.o)
+  Marking symbol .debug_info16                           (55 AdcLib.o)
+    Marking fragment #61 .debug_info (16 AdcLib.o)
+Marking from fragment #58 .debug_frame (12 AdcLib.o)
+  Marking symbol .debug_frame12                          (25 AdcLib.o)
+    Marking fragment #58 .debug_frame (12 AdcLib.o)
+  Marking symbol .text8                                  (24 AdcLib.o)
+Marking from fragment #33 .debug_info (43 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .text_11                                (37 ADCchannels.o)
+  Marking symbol .text_11                                (37 ADCchannels.o)
+  Marking symbol .debug_line42                           (70 ADCchannels.o)
+    Marking fragment #32 .debug_line (42 ADCchannels.o)
+  Marking symbol .iar.debug_line41                       (71 ADCchannels.o)
+    Marking fragment #31 .iar.debug_line (41 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc51                            (69 ADCchannels.o)
+    Marking fragment #41 .debug_loc (51 ADCchannels.o)
+  Marking symbol .text_11                                (37 ADCchannels.o)
+  Marking symbol .text_11                                (37 ADCchannels.o)
+Marking from fragment #41 .debug_loc (51 ADCchannels.o)
+Marking from fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .debug_line6                            (57 ADCchannels.o)
+    Marking fragment #1 .debug_line (6 ADCchannels.o)
+  Marking symbol .debug_macinfo59                        (58 ADCchannels.o)
+    Marking fragment #45 .debug_macinfo (59 ADCchannels.o)
+  Marking symbol __iar_cc..gEsTCrxeoQ6              Glb  (91 ADCchannels.o)
+    Marking fragment #36 .debug_info (46 ADCchannels.o)
+Marking from fragment #36 .debug_info (46 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .debug_line6                            (57 ADCchannels.o)
+    Marking fragment #1 .debug_line (6 ADCchannels.o)
+  Marking symbol .debug_macinfo59                        (58 ADCchannels.o)
+    Marking fragment #45 .debug_macinfo (59 ADCchannels.o)
+Marking from fragment #45 .debug_macinfo (59 ADCchannels.o)
+Marking from fragment #1 .debug_line (6 ADCchannels.o)
+Marking from fragment #42 .debug_abbrev (52 ADCchannels.o)
+Marking from fragment #32 .debug_line (42 ADCchannels.o)
+  Marking symbol .text_11                                (37 ADCchannels.o)
+Marking from fragment #31 .iar.debug_line (41 ADCchannels.o)
+  Marking symbol .text_11                                (37 ADCchannels.o)
+  Marking symbol .debug_info43                           (72 ADCchannels.o)
+    Marking fragment #33 .debug_info (43 ADCchannels.o)
+  Marking symbol GptSta                             Glb  (75 GptLib.o)
+  Marking symbol GptClrInt                          Glb  (73 GptLib.o)
+Marking from fragment #30 .debug_frame (39 ADCchannels.o)
+  Marking symbol .debug_frame39                          (38 ADCchannels.o)
+    Marking fragment #30 .debug_frame (39 ADCchannels.o)
+  Marking symbol .text_11                                (37 ADCchannels.o)
+Marking from fragment #29 .debug_info (38 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .text_10                                (35 ADCchannels.o)
+  Marking symbol .text_10                                (35 ADCchannels.o)
+  Marking symbol .debug_line37                           (66 ADCchannels.o)
+    Marking fragment #28 .debug_line (37 ADCchannels.o)
+  Marking symbol .iar.debug_line36                       (67 ADCchannels.o)
+    Marking fragment #27 .iar.debug_line (36 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc50                            (65 ADCchannels.o)
+    Marking fragment #40 .debug_loc (50 ADCchannels.o)
+  Marking symbol .text_10                                (35 ADCchannels.o)
+  Marking symbol .text_10                                (35 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc50                            (65 ADCchannels.o)
+    Marking fragment #40 .debug_loc (50 ADCchannels.o)
+Marking from fragment #40 .debug_loc (50 ADCchannels.o)
+Marking from fragment #28 .debug_line (37 ADCchannels.o)
+  Marking symbol .text_10                                (35 ADCchannels.o)
+Marking from fragment #27 .iar.debug_line (36 ADCchannels.o)
+  Marking symbol .text_10                                (35 ADCchannels.o)
+  Marking symbol .debug_info38                           (68 ADCchannels.o)
+    Marking fragment #29 .debug_info (38 ADCchannels.o)
+  Marking symbol UrtCfg                             Glb  (75 UrtLib.o)
+Marking from fragment #26 .debug_frame (34 ADCchannels.o)
+  Marking symbol .debug_frame34                          (36 ADCchannels.o)
+    Marking fragment #26 .debug_frame (34 ADCchannels.o)
+  Marking symbol .text_10                                (35 ADCchannels.o)
+Marking from fragment #25 .debug_info (33 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .text_9                                 (33 ADCchannels.o)
+  Marking symbol .text_9                                 (33 ADCchannels.o)
+  Marking symbol .debug_line32                           (62 ADCchannels.o)
+    Marking fragment #24 .debug_line (32 ADCchannels.o)
+  Marking symbol .iar.debug_line31                       (63 ADCchannels.o)
+    Marking fragment #23 .iar.debug_line (31 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc49                            (61 ADCchannels.o)
+    Marking fragment #39 .debug_loc (49 ADCchannels.o)
+  Marking symbol .text_9                                 (33 ADCchannels.o)
+  Marking symbol .text_9                                 (33 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc49                            (61 ADCchannels.o)
+    Marking fragment #39 .debug_loc (49 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc49                            (61 ADCchannels.o)
+    Marking fragment #39 .debug_loc (49 ADCchannels.o)
+Marking from fragment #39 .debug_loc (49 ADCchannels.o)
+Marking from fragment #24 .debug_line (32 ADCchannels.o)
+  Marking symbol .text_9                                 (33 ADCchannels.o)
+Marking from fragment #23 .iar.debug_line (31 ADCchannels.o)
+  Marking symbol .text_9                                 (33 ADCchannels.o)
+  Marking symbol .debug_info33                           (64 ADCchannels.o)
+    Marking fragment #25 .debug_info (33 ADCchannels.o)
+  Marking symbol WdtGo                              Glb  (59 WdtLib.o)
+  Marking symbol .debug_info38                           (68 ADCchannels.o)
+    Marking fragment #29 .debug_info (38 ADCchannels.o)
+  Marking symbol AdcPd                              Glb  (99 AdcLib.o)
+  Marking symbol GptLd                              Glb  (74 GptLib.o)
+  Marking symbol GptCfg                             Glb  (72 GptLib.o)
+  Marking symbol GptClrInt                          Glb  (73 GptLib.o)
+  Marking symbol .debug_info23                           (52 ADCchannels.o)
+    Marking fragment #17 .debug_info (23 ADCchannels.o)
+  Marking symbol AdcInit                            Glb  (97 AdcLib.o)
+  Marking symbol .debug_info28                           (56 ADCchannels.o)
+    Marking fragment #21 .debug_info (28 ADCchannels.o)
+  Marking symbol printf                             Glb  (14 printf.o)
+  Marking symbol AdcCfg                             Glb  (94 AdcLib.o)
+  Marking symbol AdcCnv                             Glb  (95 AdcLib.o)
+  Marking symbol AdcSta                             Glb  (101 AdcLib.o)
+  Marking symbol AdcRd                              Glb  (100 AdcLib.o)
+Marking from fragment #22 .debug_frame (29 ADCchannels.o)
+  Marking symbol .debug_frame29                          (34 ADCchannels.o)
+    Marking fragment #22 .debug_frame (29 ADCchannels.o)
+  Marking symbol .text_9                                 (33 ADCchannels.o)
+Marking from fragment #21 .debug_info (28 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .text_8                                 (29 ADCchannels.o)
+  Marking symbol .text_8                                 (29 ADCchannels.o)
+  Marking symbol .debug_line27                           (54 ADCchannels.o)
+    Marking fragment #20 .debug_line (27 ADCchannels.o)
+  Marking symbol .iar.debug_line26                       (55 ADCchannels.o)
+    Marking fragment #19 .iar.debug_line (26 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc48                            (53 ADCchannels.o)
+    Marking fragment #38 .debug_loc (48 ADCchannels.o)
+  Marking symbol .text_8                                 (29 ADCchannels.o)
+  Marking symbol .text_8                                 (29 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc48                            (53 ADCchannels.o)
+    Marking fragment #38 .debug_loc (48 ADCchannels.o)
+Marking from fragment #38 .debug_loc (48 ADCchannels.o)
+Marking from fragment #20 .debug_line (27 ADCchannels.o)
+  Marking symbol .text_8                                 (29 ADCchannels.o)
+Marking from fragment #19 .iar.debug_line (26 ADCchannels.o)
+  Marking symbol .text_8                                 (29 ADCchannels.o)
+  Marking symbol .debug_info28                           (56 ADCchannels.o)
+    Marking fragment #21 .debug_info (28 ADCchannels.o)
+Marking from fragment #18 .debug_frame (24 ADCchannels.o)
+  Marking symbol .debug_frame24                          (30 ADCchannels.o)
+    Marking fragment #18 .debug_frame (24 ADCchannels.o)
+  Marking symbol .text_8                                 (29 ADCchannels.o)
+Marking from fragment #17 .debug_info (23 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .text8                                  (26 ADCchannels.o)
+  Marking symbol .text8                                  (26 ADCchannels.o)
+  Marking symbol .debug_line22                           (50 ADCchannels.o)
+    Marking fragment #16 .debug_line (22 ADCchannels.o)
+  Marking symbol .iar.debug_line21                       (51 ADCchannels.o)
+    Marking fragment #15 .iar.debug_line (21 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc47                            (48 ADCchannels.o)
+    Marking fragment #37 .debug_loc (47 ADCchannels.o)
+  Marking symbol .text8                                  (26 ADCchannels.o)
+  Marking symbol .text8                                  (26 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol .debug_loc47                            (48 ADCchannels.o)
+    Marking fragment #37 .debug_loc (47 ADCchannels.o)
+Marking from fragment #37 .debug_loc (47 ADCchannels.o)
+Marking from fragment #16 .debug_line (22 ADCchannels.o)
+  Marking symbol .text8                                  (26 ADCchannels.o)
+Marking from fragment #15 .iar.debug_line (21 ADCchannels.o)
+  Marking symbol .text8                                  (26 ADCchannels.o)
+  Marking symbol .debug_info23                           (52 ADCchannels.o)
+    Marking fragment #17 .debug_info (23 ADCchannels.o)
+Marking from fragment #14 .debug_frame (19 ADCchannels.o)
+  Marking symbol .debug_frame19                          (27 ADCchannels.o)
+    Marking fragment #14 .debug_frame (19 ADCchannels.o)
+  Marking symbol .text8                                  (26 ADCchannels.o)
+Marking from fragment #13 .debug_info (18 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .debug_line6                            (57 ADCchannels.o)
+    Marking fragment #1 .debug_line (6 ADCchannels.o)
+  Marking symbol .debug_macinfo59                        (58 ADCchannels.o)
+    Marking fragment #45 .debug_macinfo (59 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol ucTimeout                          Glb  (90 ADCchannels.o)
+Marking from fragment #12 .debug_info (17 ADCchannels.o)
+  Marking symbol .debug_abbrev52                         (47 ADCchannels.o)
+    Marking fragment #42 .debug_abbrev (52 ADCchannels.o)
+  Marking symbol .debug_line6                            (57 ADCchannels.o)
+    Marking fragment #1 .debug_line (6 ADCchannels.o)
+  Marking symbol .debug_macinfo59                        (58 ADCchannels.o)
+    Marking fragment #45 .debug_macinfo (59 ADCchannels.o)
+  Marking symbol .debug_info7                            (49 ADCchannels.o)
+    Marking fragment #2 .debug_info (7 ADCchannels.o)
+  Marking symbol cSeq                               Glb  (88 ADCchannels.o)
+Creating copy init batch C1 for P1 -> P2, auto
+  First match: .data (ADCchannels.o #10)
+Selecting packing algorithm for 'auto' batches
+  Estimating size for copy init batch C1 (P1 -> P2):
+      copy: 12 bytes
+      packbits: 12 bytes
+    Selecting copy
+
+Veneer stats:
+
+  55 definitions
+  86 references
+     81 R_ARM_THM_CALL
+      4 R_ARM_THM_JUMP24
+      1 R_ARM_THM_JUMP19
+   0 veneers               0 bytes
+   0 redirected references
